@@ -9,79 +9,78 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* ShanghaiTech University, Shanghai, China 2022 Sept. - Expected June 2026
+* 
 
-  ***Bachelor of Science Candidate***, Computer Science and Technology, School of Information Science and Technology
+* ---
+  layout: archive
+  title: "CV"
+  permalink: /cv/
+  author_profile: true
+  redirect_from:
+    - /resume
+  ---
 
-  ***Minor in Finance***, School of Entrepreneurship and Management
+  {% include base_path %}
 
-  * Outstanding Student Cadre: for managing tutoring group (2022 – 2023)
+  Education
+  ======
 
-  * Outstanding Individual in Social Practice: for team leader position organizing project for 30 students (July 2023)
+  * **ShanghaiTech University**, Shanghai, China (Sept. 2022 – Expected June 2026)  
+    **Bachelor of Science Candidate**, Computer Science and Technology  
+    **Minor in Finance**, School of Entrepreneurship and Management  
+    - Outstanding Student Cadre (2022–2023) for managing tutoring group  
+    - Outstanding Individual in Social Practice (July 2023) as team leader for a 30-person research project  
+    - Academic interest in data science and data mining applied to economics and business trend analyses
 
-  * Academic Interest: Data science and data mining for economic and business historical and trend analyses
+  * **University of Wisconsin–Madison**, Madison, WI, USA (Jan. 2025 – Expected June 2025)  
+    **Bachelor of Science Candidate**, Computer Science (VISP Program)
 
-* University of Wisconsin–Madison, Madison WI, USA 2025 Jan. - Expected June 2025
+  Work Experience
+  ======
 
-  ***Bachelor of Science Candidate***, Computer Science, VISP(Visiting International Student Program) Program
+  * **Undergraduate Researcher**, Financial Intelligence Laboratory, ShanghaiTech University  
+    *PI: Haipeng Zhang | Sept. 2023 – Present*  
+    - Conducting research on life trajectory classification using LLMs and syntactic graph fusion  
+    - Utilized Python and MongoDB for large-scale data cleaning, processing, and visualization  
+    - Co-authored paper under submission to IJCAI 2025; contributed to dataset creation and research design  
+    - Developed frameworks for modeling human migration and career development patterns
 
+  * **Social Practice Project**, Yan’an, Shaanxi Province (July 2023)  
+    **Group Leader**  
+    - Led team of 30 to study economic transformation models in post-revolution industrial cities  
+    - Conducted field research and collaborated with local government departments  
+    - Authored comprehensive policy research report
 
-Work experience
-======
-SHANGHAITECH UNIVERSITY, Shanghai, China 2022 – Present
+  Activities
+  ======
 
-* *Undergraduate Researcher*, **Financial Intelligence Laboratory**  PI: Haipeng ZHANG Sept. 2023 - Present
+  * **2024 American Mathematical Modeling Contest (ICM)**  
+    - Project: Sustainability Insurance Modeling in Extreme Weather  
+    - Built prediction models using random forest and time series regression  
+    - Scraped insurance and climate data; visualized results in MATLAB and Python  
+    - Completed a 15-page technical paper independently  
 
-  - Using LLM and data mining and analyses to conduct research on human behavioral data mining and modeling and fintech modeling.
+  * **2024 CTB Harvard Global Youth Research Innovation Forum**  
+    - Moderated student innovation project evaluations  
+    - Facilitated forums on climate change and pollution control  
 
-  - Using Python for data cleaning, processing and visualization of a human behavior mining project related to detecting and mapping migration patterns for educational opportunities.
+  * **2024 PwC Polytechnic Student Challenge Camp – STEM Day**  
+    - Completed research report on generative AI compliance risks within 30 minutes  
+    - Focused on LLM hallucinations and data security threats  
+    - Awarded **Second Place**
 
-  - Responsible for reviewing background research such as academic papers to select research topics.
+  Skills and Awards
+  ======
 
-* **Social Practice Project**, Yan'an, Shaanxi Province July 9, 2023 - July 21, 2023
-  Group Leader
+  * **Languages**: Chinese (Native), English (Fluent)  
+  * **Programming**: Python, C/C++, MATLAB, MongoDB, SQL, HTML/CSS/JavaScript  
+  * **Awards**:  
+    - 2nd Place, PwC Polytechnic AI Challenge (2024)  
+    - 3rd Prize, English Speech Contest for Yangtze River Delta Universities (2024)
 
-  - Led project of 30 students to research the model of high-quality transformation of the Yan'an economy
+  Publications
+  ======
 
-  - Coordinated the implementation of practical activities, planned activity times and travel logistics.
-
-  - Coordinated with various parties, collected data and held discussions with various government departments in Yan'an to fully understand the local economic situation and specialty industries, and completed the research report.
-
-ACTIVITIES
-======
-* **2024 AMERICAN MATHEMATICAL MODELING CONTEST (ICM)** Feb. 2024
-  Personal Project: Sustainability Insurance Modeling in Extreme Weather
-
-  - Created a crawler to collect relevant extreme weather data and insurance payout data to identify causal correlation; built the basic model architecture using PISA and MATLAB.
-
-  - Predicting and evaluating premiums under extreme weather conditions through machine learning methods such as random forests and time series regression models.
-
-  - Independently completed a 15-page project paper visualizing the results of the model using Matplotlib.
-
-* **2024 CTB HARVARD GLOBAL YOUTH RESEARCH INNOVATION FORUM** Mar. 2024
-
-  - Participated in organizing the evaluation of high school student participants' projects and moderated discussions with moderator.
-
-  - Organized discussions on forum topics such as climate change and pollution reduction to ensure a smooth flow of activities.
-
-* **2024 PWC POLYTECHNIC STUDENT CHALLENGE CAMP STEM DAY** May 25, 2024
-
-  - Independently completed a research report on Generative AI - Compliance Risk Management in less than half an hour; focusing on identifying risks such as confidential PwC data leaks and pulling of inaccurate data in LLM reports.
-
-  - Won Second Place prize in the group; credited for good information retrieval and project reporting skills.
-
-SKILLS AND AWARDS
-======
-* **Languages**: Chinese (Native), English (Fluent)
-
-* **Computer Skills**: C/C++ ; Python & MATLAB
-
-* **Awards**: Third Prize in English Speech Contest for Young Students in Yangtze River Delta Colleges and Universities (2024)
-
-Publications
-======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
