@@ -5,7 +5,7 @@ permalink: /publication/2025-01-15-Weibo_prediction
 excerpt: 'This paper is about Predicting the interactions of Weibo'
 date: 2025-01-15
 venue: 'Final project for CS182 Fall in Shanghaitech University'
-paperurl: 'https://github.com/teslaxi/teslaxi.github.io/blob/master/files/Predicting_the_interactions_of_Weibo.pdf'
+paperurl: 'https://github.com/XanderZhou2022/XanderZhou2022.github.io/blob/master/files/Predicting_the_interactions_of_Weibo.pdf'
 
 ---
 
