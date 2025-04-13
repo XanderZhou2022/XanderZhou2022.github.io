@@ -10,27 +10,21 @@ redirect_from:
 
 
 
-I’m a Junior from the Computer Science and Technology major at ShanghaiTech and now I am in the visiting international student program in university of Wisconsin-Madison(VISP program). I go by Xander, the name I chose after seeing a play called Hamilton. I’m an outgoing and social person, but when I’m in the lab, I like to focus deeply on my academic interest in data science and data mining to improve the efficiency of society and the economy. 
+Hi! I'm **Yixi (Xander) Zhou**, a junior majoring in **Computer Science and Technology** at **ShanghaiTech University**, currently studying at the **University of Wisconsin–Madison** through the **VISP (Visiting International Student Program)**.
 
+I go by **Xander**, a name I picked after watching *Hamilton*. I'm an outgoing and social person, but when I’m in the lab, I dive deeply into my academic passion for **data science and data mining** — especially when it comes to using technology to improve the efficiency of society and the economy.
 
+At ShanghaiTech, I’ve built a strong academic foundation across both **computer science and business**, and I currently conduct research at the **Financial Intelligence Laboratory** under **Prof. Haipeng Zhang**. My work focuses on mining human behavioral data at scale, such as tracking migration and education trends through structured Wikipedia data. I love turning raw, messy information into meaningful insights — especially the kind that can’t be spotted by the human eye alone.
 
-At ShanghaiTech, I have spent three years of coursework focusing on both computer science and business and did research to prepare for more advanced coursework. I’m in Prof. Haipeng Zhang’s Financial Intelligence Laboratory where I have built experience in the field of data mining. I really enjoy the process of collecting data from different areas and applying my computer science knowledge to mine the clues behind the data which can’t be found easily by human observation. I have used data from Wikipedia to analyze the education and longitudinal migration patterns of easily trackable people from around the world, such as celebrities.
+I believe data has the power to reveal patterns that can drive real-world change. For example, in the **2024 American Mathematical Modeling Contest (ICM)**, I led a project on **insurance risk modeling under extreme weather**, exploring how data-informed policies could support communities facing climate disasters. I’m also passionate about the business side of data — like stock trend analysis and compliance auditing. At **PwC’s Polytechnic Student Challenge Camp**, I earned **2nd place** for analyzing compliance risks in using generative AI for financial reporting.
 
+I also enjoy teaching and sharing knowledge. I’ve been a top Piazza contributor at UW–Madison, where I answered over **80 debugging and data questions**, and I create and share **mini-lecture videos** to help my peers learn more effectively. I also served as a **moderator at the CTB Harvard Global Youth Forum**, sharpening my communication and leadership skills.
 
+Beyond the classroom, I care about **social impact**. I led a **30-person field research team** to study economic development in **Yan’an, Shaanxi Province**, where we worked with local officials and published our findings on rural revitalization.
 
-In the future, we can use data to discover a lot more interesting facts and trends that can benefit our lives and society.  I thus engaged in activities outside the lab and classroom, such as an insurance risk assumption project in the American Mathematical Modeling competition, where I found using the data properly can assist the government in drafting policies such as construction regulations to alleviate public suffering from natural disasters.
+I’m currently looking for **undergraduate summer research opportunities** and exploring potential **graduate programs** in data science, machine learning, and their applications in social good, economics, and healthcare.
 
-
-
-In terms of business benefits, data science can help us make more profitable business decisions, such as forecasting movements in stock markets, a field I’m interested in. I participated in PwC’s Polytechnic Student Challenge Camp Stem Day, where identified compliance risks related to running LLM for drafting company reports, such as pulling confidential internal or inaccurate data. I was awarded second place in the risk assurance group and was commended for my presentation skills. I also wished to develop my mentoring and English language skills by acting as a moderator and host in the CTB Harvard Global Youth Research Innovation Forum. And to help my classmates, I record mini-lectures of myself on key knowledge on course subjects and upload them on my website to share effective learning methods. I really enjoy sharing and learning ideas and with others.
-
-
-
-Outside of academia, I have participated in social impact activities, such as serving as the group leader over 30 students for a social practice project in Yan ’an, Shaanxi Province to research the local economy and cultural resources. With our joint effort, we can make our world more wonderful!
-
-
-
-Feel free to contact me at zhouyx2022@shanghaitech.edu.cn or zhou658@wisc.edu, I'm looking for undergraduate summer research, as well as graduate programs in future!
+📬 Feel free to reach out at **zhouyx2022@shanghaitech.edu.cn** or **zhou658@wisc.edu** — I’d love to connect!
 
 
 
