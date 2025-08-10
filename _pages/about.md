@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://xanderzhou2022.github.io/'>Personal Website</a>. Undergraduate Researcher. Computer Science Student.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>702 Langdon St, Madison, WI 53706</p>
+    <p>zhouyx2022@shanghaitech.edu.cn</p>
+    <p>https://xanderzhou2022.github.io/</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +27,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## About Me
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am **Yixi (Xander) Zhou**, an undergraduate researcher and computer science student with a passion for machine learning, data mining, and artificial intelligence. I am currently pursuing my Bachelor's degree at both the University of Wisconsin-Madison and ShanghaiTech University, where I engage in cutting-edge research and maintain excellent academic performance.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Research & Experience
+
+As an undergraduate researcher at ShanghaiTech University's Financial Intelligence Laboratory under the supervision of Dr. Haipeng ZHANG, I focus on developing innovative solutions using large language models and graph neural networks. My current research involves fine-grained classification of life trajectories from Wikipedia data, achieving significant improvements in multi-classification accuracy through syntactic graph fusion techniques.
+
+I have led several AI and machine learning projects, including named entity recognition in financial technology using Hidden Markov Models and Conditional Random Fields, analysis of quadratic programming solvers, and media engagement prediction systems. These projects have helped me develop expertise in Python, machine learning frameworks, and data analysis techniques.
+
+## Interests & Goals
+
+My research interests lie at the intersection of machine learning, natural language processing, and financial technology. I am particularly interested in developing algorithms that can handle complex, real-world data challenges and contribute to the advancement of AI applications in various domains.
+
+I am passionate about bridging the gap between theoretical research and practical applications, and I look forward to continuing my academic journey while contributing to meaningful technological innovations.
