@@ -11,7 +11,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>702 Langdon St, Madison, WI 53706</p>
+    <p>393 Middle Huaxia Road, Pudong New Area, Shanghai 201210, China</p>
     <p>zhouyx2022@shanghaitech.edu.cn</p>
     <p>https://xanderzhou2022.github.io/</p>
 
