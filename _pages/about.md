@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Yixi Zhou - ShanghaiTech University & UW-Madison
 permalink: /
 subtitle: <a href='https://xanderzhou2022.github.io/'>Personal Website</a>. Undergraduate Researcher. Computer Science Student.
 nav: true
