@@ -2,8 +2,8 @@
 const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
-ninja.data = [{id: "nav-yixi-zhou-shanghaitech-university-amp-uw-madison",
-          title: "Yixi Zhou - ShanghaiTech University &amp; UW-Madison",
+ninja.data = [{id: "nav-about",
+          title: "about",
           description: "",
           section: "Navigation",
           handler: () => {
