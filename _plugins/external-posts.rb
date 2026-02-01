@@ -1,7 +1,7 @@
+require 'nokogiri'  # must be loaded before feedjira for XML parsing
 require 'feedjira'
 require 'httparty'
 require 'jekyll'
-require 'nokogiri'
 require 'time'
 
 module ExternalPosts

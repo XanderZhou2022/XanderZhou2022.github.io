@@ -2,21 +2,22 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Yixi Zhou-ShanghaiTech University # the website title (if blank, full name will be used instead)
+title: Yixi Zhou # the website title (if blank, full name will be used instead)
+site_name: Yixi Zhou # used for <title> and og:site_name (no university, no emoji)
 first_name: Yixi
 middle_name: 
 last_name: Zhou
 contact_note: >
   Email is the best way to reach me. I'm always open to discussing research opportunities and collaborations.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Yixi (Xander) Zhou, undergraduate researcher at ShanghaiTech University and University of Wisconsin-Madison, specializing in computer science, machine learning, and artificial intelligence research.
+  Personal website of Yixi (Xander) Zhou, incoming Ph.D. student in computer science at Hong Kong Baptist University (2026, advised by Renchi Yang). Research direction: data agent. Member of HKBU LAGAS Group (Database Lab). Remote RA at MBZUAI (financial AI, Preslav Nakov and Zhuohan Xie). B.S. from ShanghaiTech University and University of Wisconsin-Madison.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: computer science, machine learning, artificial intelligence, data mining, research, undergraduate researcher, Yixi Zhou, Xander Zhou, ShanghaiTech University, University of Wisconsin-Madison, computer science student, AI research # add your own keywords or leave empty
+keywords: computer science, machine learning, artificial intelligence, data mining, data agent, financial AI, research, Yixi Zhou, Xander Zhou, Hong Kong Baptist University, HKBU, MBZUAI, ShanghaiTech University, University of Wisconsin-Madison, Renchi Yang, Preslav Nakov, Zhuohan Xie, LAGAS Group # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🐵 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon:  # no emoji; use image name in /assets/img/ (e.g. favicon.png) if you want a favicon
 
 url: https://xanderzhou2022.github.io/ # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -115,19 +116,14 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname, or leave blank to disable
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+# Set to [] to disable (avoids Feedjira/network issues during local build)
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter

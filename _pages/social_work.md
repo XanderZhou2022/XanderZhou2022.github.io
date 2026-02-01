@@ -3,7 +3,7 @@ layout: page
 permalink: /social_work/
 title: social work
 description: Social work, community service, and social responsibility initiatives.
-nav: true
+nav: false
 nav_order: 6
 ---
 

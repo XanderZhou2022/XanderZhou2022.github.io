@@ -21,10 +21,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>
-  {% if site.title == 'blank' %}
-    {% capture title %}{{ author_name }}{% endcapture %}
+  {% if site.site_name %}
+    {% assign title = site.site_name %}
+  {% elsif site.title == 'blank' %}
+    {% assign title = author_name %}
   {% else %}
-    {% capture title %}{{ site.title }}{% endcapture %}
+    {% assign title = site.title %}
   {% endif %}
   {% if page.url == '/blog/index.html' %}
     {{ page.title }} | {{ title }}
@@ -53,7 +55,7 @@
 
 {% if site.serve_og_meta %}
   <!-- OpenGraph -->
-  <meta property="og:site_name" content="{{ title }}">
+  <meta property="og:site_name" content="{% if site.site_name %}{{ site.site_name }}{% else %}{{ title }}{% endif %}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">

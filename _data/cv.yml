@@ -2,96 +2,104 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Yixi (Xander) Zhou
+    - name: Email
+      value: zhouyx2022@shanghaitech.edu.cn
+    - name: Website
+      value: https://xanderzhou2022.github.io/
     - name: Languages
-      value: English, German
+      value: Chinese (Native); English (Fluent)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science (Incoming)
+      institution: Hong Kong Baptist University, Hong Kong
+      year: Sept 2026 – June 2030 (expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Advisor: <a href=\"https://renchi.ac.cn/\" target=\"_blank\" rel=\"noopener\">Renchi Yang</a>"
+        - Research direction: data agent.
+        - Member of <a href="https://renchi.ac.cn/team/" target="_blank" rel="noopener">LAGAS Group</a> (HKBU Database Lab).
+    - title: Bachelor of Science, Computer Sciences
+      institution: University of Wisconsin-Madison, Madison, WI
+      year: Jan 2025 – Aug 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Exchange study in computer sciences.
+    - title: Bachelor of Science, Computer Science and Technology
+      institution: ShanghaiTech University, School of Information Science and Technology, Shanghai, China
+      year: Sept 2022 – June 2026
+      description:
+        - School of Information Science and Technology.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Remote Research Assistant
+      institution: "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). Supervised by <a href=\"https://mbzuai.ac.ae/study/faculty/preslav-nakov/\" target=\"_blank\" rel=\"noopener\">Preslav Nakov</a> and <a href=\"https://scholar.google.com/citations?user=W9mk-R4AAAAJ&hl=en\" target=\"_blank\" rel=\"noopener\">Zhuohan Xie</a>."
+      year: Nov 2025 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Financial AI.
+    - title: Undergraduate Researcher
+      institution: "ShanghaiTech University, Financial Intelligence Laboratory (PI: <a href=\"https://faculty.sist.shanghaitech.edu.cn/zhanghp/\" target=\"_blank\" rel=\"noopener\">Haipeng Zhang</a>)"
+      year: Sept 2023 – Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Life trajectory classification from Wikipedia; LLMs and syntactic graph fusion.
+    - title: AI Project — Human-Aligned Multi-Agent Reranking for Financial Document QA (First Author)
+      institution: —
+      year: Aug 2025 – Oct 2025
       description:
+        - Multi-agent reranking for financial document question answering.
+    - title: AI Project — Revisiting Nighttime Light Features in Inclusive Credit Scoring (Co-Author)
+      institution: —
+      year: Aug 2025 – Oct 2025
+      description:
+        - Fairness and interpretability in credit scoring; nighttime-light features.
+    - title: AI Project — Named Entity Recognition in Financial Technology (Group Leader & First Author)
+      institution: —
+      year: Jan 2024 – May 2024
+      description:
+        - Named entity recognition in financial texts; HMM and CRF.
+    - title: Quadratic Programming Solvers Research Project (Group Leader & First Author)
+      institution: —
+      year: Sept 2024 – Jan 2025
+      description:
+        - Quadratic programming solvers; IRWA and ADAL for mixed constraints.
+    - title: Machine Learning Program — Media Engagement Prediction Challenge (Leader & Author)
+      institution: —
+      year: Nov 2024 – Jan 2025
+      description:
+        - Media engagement prediction; tree-based and neural models.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Open Source / Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/XanderZhou2022">GitHub</a>
+      year: present
+      description: Personal projects and code contributions.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: "2024"
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Second Place, PWC Polytechnic Student Challenge (Generative AI Risk Management)
+        - American Mathematical Modeling Contest (ICM)
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Research Direction (Ph.D.)
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Data agent.
+    - title: Machine Learning & NLP
       items:
-        - Description 1.
-        - Description 2.
+        - Large language models, graph neural networks, syntactic graph fusion, named entity recognition.
+    - title: Applications
+      items:
+        - Financial document QA, life trajectory classification, credit scoring fairness, media engagement prediction.
 
-- title: Other Interests
+- title: Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Languages:</u> Chinese (Native); English (Fluent).
+    - <u>Technical:</u> C/C++; Python; MATLAB; JavaScript/HTML/CSS; SQL; MongoDB; LLM fine-tuning; Snowflake; Airbyte; Elasticsearch.

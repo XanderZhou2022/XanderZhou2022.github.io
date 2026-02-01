@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - XanderZhou2022
 
 repo_description_lines_max: 2
 
+# Add specific repos to showcase (optional). If empty, repos from github_users will be shown.
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  # - XanderZhou2022/your-repo-name
