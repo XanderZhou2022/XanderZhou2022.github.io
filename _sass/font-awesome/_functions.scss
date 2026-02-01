@@ -1,3 +1,4 @@
+@use "sass:math";
 // functions
 // --------------------------
 @use "sass:string";
@@ -34,8 +35,8 @@
 
 @function fa-divide($dividend, $divisor, $precision: 10) {
   $sign: if(sass($dividend > 0 and $divisor > 0): 1; else: -1);
-  $dividend: abs($dividend);
-  $divisor: abs($divisor);
+  $dividend: math.abs($dividend);
+  $divisor: math.abs($divisor);
   $quotient: 0;
   $remainder: $dividend;
   @if $dividend == 0 {

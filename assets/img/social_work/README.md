@@ -7,31 +7,37 @@ This folder contains images for the social work section of the website.
 The following images are referenced in the social work pages:
 
 ### 1. coding_workshop.jpg
+
 - **Description**: Programming workshop with students
 - **Size**: Recommended 800x600px or larger
 - **Content**: Students working on computers, coding activities
 
 ### 2. digital_literacy.jpg
+
 - **Description**: Digital literacy workshop with seniors
 - **Size**: Recommended 800x600px or larger
 - **Content**: Seniors learning technology, workshop activities
 
 ### 3. ai_social_good.jpg
+
 - **Description**: AI for social good projects
 - **Size**: Recommended 800x600px or larger
 - **Content**: AI technology, healthcare, or NGO work
 
 ### 4. environmental.jpg
+
 - **Description**: Environmental sustainability projects
 - **Size**: Recommended 800x600px or larger
 - **Content**: Green technology, conservation, sustainability
 
 ### 5. volunteer_leadership.jpg
+
 - **Description**: Volunteer leadership and community service
 - **Size**: Recommended 800x600px or larger
 - **Content**: Leadership activities, community events
 
 ### 6. food_bank.jpg
+
 - **Description**: Food bank volunteering
 - **Size**: Recommended 800x600px or larger
 - **Content**: Food bank activities, volunteer work
@@ -63,6 +69,7 @@ The following images are referenced in the social work pages:
 ## Temporary Solution
 
 Until you add the actual images, you can:
+
 1. Use placeholder images from services like:
    - https://picsum.photos/800/600
    - https://via.placeholder.com/800x600
@@ -73,7 +80,5 @@ Until you add the actual images, you can:
 ## Example Usage
 
 ```html
-<img src="/assets/img/social_work/coding_workshop.jpg" 
-     alt="Programming Workshop" 
-     style="height: 200px; object-fit: cover;">
-``` 
+<img src="/assets/img/social_work/coding_workshop.jpg" alt="Programming Workshop" style="height: 200px; object-fit: cover;" />
+```

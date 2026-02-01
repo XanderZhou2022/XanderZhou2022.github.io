@@ -5,7 +5,7 @@
 title: Yixi Zhou # the website title (if blank, full name will be used instead)
 site_name: Yixi Zhou # used for <title> and og:site_name (no university, no emoji)
 first_name: Yixi
-middle_name: 
+middle_name:
 last_name: Zhou
 contact_note: >
   Email is the best way to reach me. I'm always open to discussing research opportunities and collaborations.
@@ -17,10 +17,10 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: computer science, machine learning, artificial intelligence, data mining, data agent, financial AI, research, Yixi Zhou, Xander Zhou, Hong Kong Baptist University, HKBU, MBZUAI, ShanghaiTech University, University of Wisconsin-Madison, Renchi Yang, Preslav Nakov, Zhuohan Xie, LAGAS Group # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon:  # no emoji; use image name in /assets/img/ (e.g. favicon.png) if you want a favicon
+icon: # no emoji; use image name in /assets/img/ (e.g. favicon.png) if you want a favicon
 
 url: https://xanderzhou2022.github.io/ # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button

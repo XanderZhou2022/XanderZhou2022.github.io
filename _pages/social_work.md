@@ -242,4 +242,4 @@ Interested in collaborating on social work projects? Let's work together to make
 
 ---
 
-*"The best way to find yourself is to lose yourself in the service of others."* - Mahatma Gandhi 
+_"The best way to find yourself is to lose yourself in the service of others."_ - Mahatma Gandhi

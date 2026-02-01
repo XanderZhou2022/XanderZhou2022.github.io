@@ -150,24 +150,12 @@
     {
       "name": "Programming",
       "level": "",
-      "keywords": [
-        "C/C++",
-        "Python",
-        "MATLAB",
-        "JavaScript/HTML/CSS",
-        "SQL",
-        "MongoDB"
-      ]
+      "keywords": ["C/C++", "Python", "MATLAB", "JavaScript/HTML/CSS", "SQL", "MongoDB"]
     },
     {
       "name": "ML & Data",
       "level": "",
-      "keywords": [
-        "LLM Fine-Tuning",
-        "Snowflake",
-        "Airbyte",
-        "Elasticsearch"
-      ]
+      "keywords": ["LLM Fine-Tuning", "Snowflake", "Airbyte", "Elasticsearch"]
     }
   ],
   "languages": [
@@ -185,12 +173,7 @@
   "interests": [
     {
       "name": "Research",
-      "keywords": [
-        "Machine Learning",
-        "NLP",
-        "Financial AI",
-        "Life Trajectory Classification"
-      ]
+      "keywords": ["Machine Learning", "NLP", "Financial AI", "Life Trajectory Classification"]
     }
   ],
   "references": [],
