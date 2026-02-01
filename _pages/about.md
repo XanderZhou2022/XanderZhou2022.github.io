@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 header_title: Yixi Zhou
 subtitle: Incoming Ph.D. @ HKBU (2026). Undergraduate Researcher.

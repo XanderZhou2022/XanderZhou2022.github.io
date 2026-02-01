@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Teaching Assistant experience and course materials.
 nav: true
 nav_order: 7

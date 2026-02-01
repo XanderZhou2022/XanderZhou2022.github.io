@@ -515,6 +515,10 @@ footer.sticky-bottom {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
 
+    .card-title {
+      font-size: 1.5rem;
+    }
+
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
@@ -1073,12 +1077,12 @@ nav[data-toggle="toc"] {
   top: 5rem;
 
   .nav .nav > li > a {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 
   .nav > li > a {
     color: var(--global-text-color);
-    font-size: 0.75rem;
+    font-size: 1rem;
 
     &:hover {
       color: var(--global-hover-color);
@@ -1089,7 +1093,7 @@ nav[data-toggle="toc"] {
   .nav-link.active {
     color: var(--global-theme-color);
     border-left-color: var(--global-theme-color);
-    font-size: 0.75rem;
+    font-size: 1rem;
 
     &:hover {
       color: var(--global-hover-color);
