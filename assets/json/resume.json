@@ -6,7 +6,7 @@
     "email": "zhouyx2022@shanghaitech.edu.cn",
     "phone": "",
     "url": "https://xanderzhou2022.github.io/",
-    "summary": "Incoming Ph.D. student in computer science at Hong Kong Baptist University (2026–2030, expected), advised by Renchi Yang. Research direction: data agent. Member of HKBU LAGAS Group (Database Lab). Remote RA at MBZUAI (financial AI, Preslav Nakov and Zhuohan Xie). B.S. from ShanghaiTech University and University of Wisconsin-Madison.",
+    "summary": "Incoming Ph.D. student in computer science at Hong Kong Baptist University (2026–2030, expected), advised by Renchi Yang. Research direction: data agent. Member of HKBU LAGAS Group (Database Lab). Remote RA at MBZUAI (financial AI, Preslav Nakov and Zhuohan Xie) and at The University of Tokyo & Nikkei (financial LLM, Fan Zhang and Yu Chen). B.S. from ShanghaiTech University and University of Wisconsin-Madison.",
     "location": {
       "address": "393 Middle Huaxia Road, Pudong New Area",
       "postalCode": "201210",
@@ -34,6 +34,15 @@
       "startDate": "2025-11-01",
       "endDate": "present",
       "summary": "Financial AI. Supervised by Preslav Nakov and Zhuohan Xie.",
+      "highlights": []
+    },
+    {
+      "name": "The University of Tokyo & Nikkei",
+      "position": "Research Assistant (Remote)",
+      "url": "https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/chen_yu/",
+      "startDate": "2025-11-01",
+      "endDate": "present",
+      "summary": "Financial LLM. Supervised by Fan Zhang and Yu Chen.",
       "highlights": []
     },
     {

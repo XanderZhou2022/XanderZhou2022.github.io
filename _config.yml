@@ -10,18 +10,18 @@ last_name: Zhou
 contact_note: >
   Email is the best way to reach me. I'm always open to discussing research opportunities and collaborations.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Yixi (Xander) Zhou, incoming Ph.D. student in computer science at Hong Kong Baptist University (2026, advised by Renchi Yang). Research direction: data agent. Member of HKBU LAGAS Group (Database Lab). Remote RA at MBZUAI (financial AI, Preslav Nakov and Zhuohan Xie). B.S. from ShanghaiTech University and University of Wisconsin-Madison.
+  Personal website of Yixi (Xander) Zhou, incoming Ph.D. student in computer science at Hong Kong Baptist University (2026, advised by Renchi Yang). Research direction: data agent. Member of HKBU LAGAS Group (Database Lab). Remote RA at MBZUAI (financial AI, Preslav Nakov and Zhuohan Xie) and at The University of Tokyo & Nikkei (financial LLM, Fan Zhang and Yu Chen). B.S. from ShanghaiTech University and University of Wisconsin-Madison.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: computer science, machine learning, artificial intelligence, data mining, data agent, financial AI, research, Yixi Zhou, Xander Zhou, Hong Kong Baptist University, HKBU, MBZUAI, ShanghaiTech University, University of Wisconsin-Madison, Renchi Yang, Preslav Nakov, Zhuohan Xie, LAGAS Group # add your own keywords or leave empty
+keywords: computer science, machine learning, artificial intelligence, data mining, data agent, financial AI, financial LLM, research, Yixi Zhou, Xander Zhou, Hong Kong Baptist University, HKBU, MBZUAI, The University of Tokyo, Nikkei, ShanghaiTech University, University of Wisconsin-Madison, Renchi Yang, Preslav Nakov, Zhuohan Xie, Fan Zhang, Yu Chen, LAGAS Group # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # no emoji; use image name in /assets/img/ (e.g. favicon.png) if you want a favicon
 
 url: https://xanderzhou2022.github.io/ # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
