@@ -47,6 +47,11 @@ ninja.data = [{id: "nav-about",
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-01-16-hkbu-offer/";
+            },},{id: "news-fincards-accepted-to-acl-2026-findings",
+          title: 'FinCARDS Accepted to ACL 2026 Findings',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-04-06-fincards-acl-findings/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
