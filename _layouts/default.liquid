@@ -52,5 +52,12 @@
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
+    {% if page.permalink == "/" %}
+      <script
+        type="text/javascript"
+        id="mapmyvisitors"
+        src="https://mapmyvisitors.com/map.js?cl=b6dcfe&w=300&t=tt&d=96i8XrKZVbIqjO4VbZOdzicj7NZTWwYArun4OHZSjdw&co=81f7e5&cmo=a9f8fb&cmn=dec5e3&ct=0c0c0c"
+      ></script>
+    {% endif %}
   </body>
 </html>
