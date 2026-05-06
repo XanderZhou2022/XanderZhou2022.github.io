@@ -4,6 +4,7 @@ permalink: /social_work/programming-workshops/
 title: Programming Workshops for High School Students
 description: Teaching programming fundamentals to underserved youth in communities.
 nav: false
+published: false
 ---
 
 ## Programming Workshops for High School Students

@@ -4,6 +4,7 @@ permalink: /social_work/ai-social-good/
 title: AI for Social Good
 description: Developing AI-powered healthcare applications and supporting NGOs with data analysis.
 nav: false
+published: false
 ---
 
 ## AI for Social Good

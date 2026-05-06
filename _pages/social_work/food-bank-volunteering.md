@@ -4,6 +4,7 @@ permalink: /social_work/food-bank-volunteering/
 title: Food Bank Volunteering
 description: Weekly volunteer shifts at food banks in Madison and Shanghai.
 nav: false
+published: false
 ---
 
 ## Food Bank Volunteering

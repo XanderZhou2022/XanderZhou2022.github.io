@@ -4,6 +4,7 @@ permalink: /social_work/[project-name]/
 title: [Project Title]
 description: [Brief description of the project]
 nav: false
+published: false
 ---
 
 ## [Project Title]

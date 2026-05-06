@@ -62,9 +62,20 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Papers</a>
-      </h2>
+      <div class="selected-publications-header">
+        <h2>
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+        </h2>
+        {% if site.data.socials.scholar_userid %}
+          <a
+            href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+            class="btn btn-sm z-depth-0 all-publications-btn"
+            role="button"
+          >
+            All Publications (Google Scholar)
+          </a>
+        {% endif %}
+      </div>
       {% include selected_papers.liquid %}
     {% endif %}
 

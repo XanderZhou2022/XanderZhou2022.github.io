@@ -8,7 +8,19 @@ nav: false
 
 ## Life Trajectory Classification Research
 
-Research on fine-grained classification of life trajectories from Wikipedia using large language models (LLM) and syntactic graph fusion. Conducted at ShanghaiTech University, Financial Intelligence Laboratory (PI: [Haipeng Zhang](https://faculty.sist.shanghaitech.edu.cn/zhanghp/)).
+<img src="/assets/img/projects/life-trajectory.png" alt="Life trajectory classification project figure" class="img-fluid rounded z-depth-1 mb-4">
+
+Research on fine-grained classification of life trajectories from Wikipedia using large language models and syntactic graph fusion. Conducted at ShanghaiTech University, Financial Intelligence Laboratory (PI: [Haipeng Zhang](https://faculty.sist.shanghaitech.edu.cn/zhanghp/)).
+
+### Overview
+
+This project studies how to model biographical trajectories from large-scale Wikipedia-style data. The core idea is to combine textual representations from LLMs with syntactic and graph-based structural signals, so that the model can better capture career paths, role transitions, and fine-grained life-stage patterns.
+
+### My Role
+
+- Worked on life trajectory classification from Wikipedia-style biographies.
+- Explored the use of LLM features and syntactic graph fusion for richer person-level representations.
+- Connected the project to broader interests in real-world data understanding and data-agent research.
 
 **Keywords:** Life trajectory, Wikipedia, LLM, syntactic graph fusion, graph neural networks.
 

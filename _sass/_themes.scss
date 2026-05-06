@@ -7,20 +7,43 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --lime-cream: #d9ed92;
+  --light-green: #b5e48c;
+  --light-green-2: #99d98c;
+  --emerald: #76c893;
+  --ocean-mist: #52b69a;
+  --tropical-teal: #34a0a4;
+  --bondi-blue: #168aad;
+  --cerulean: #1a759f;
+  --baltic-blue: #1e6091;
+  --yale-blue: #184e77;
+  --lemon-chiffon: #fbf8ccff;
+  --powder-petal: #fde4cfff;
+  --cotton-rose: #ffcfd2ff;
+  --pink-orchid: #f1c0e8ff;
+  --mauve: #cfbaf0ff;
+  --baby-blue-ice: #a3c4f3ff;
+  --frosted-blue: #90dbf4ff;
+  --electric-aqua: #8eecf5ff;
+  --aquamarine: #98f5e1ff;
+  --celadon: #b9fbc0ff;
+  --global-bg-color: #fbfdf8;
+  --global-code-bg-color: rgba(24, 78, 119, 0.06);
+  --global-text-color: #1f2933;
+  --global-text-color-light: #667085;
+  --global-theme-color: var(--yale-blue);
+  --global-hover-color: var(--bondi-blue);
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
+  --global-footer-bg-color: #184e77;
+  --global-footer-text-color: #f3f7fb;
   --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-distill-app-color: #667085;
+  --global-divider-color: #e5e7eb;
   --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
+  --global-highlight-color: var(--tropical-teal);
+  --global-soft-accent-color: #eef8dd;
+  --global-soft-blue-color: #edf6f9;
+  --global-card-shadow: 0 2px 10px rgba(24, 78, 119, 0.05);
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -29,7 +52,7 @@
   );
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+  --global-newsletter-text-color: #1f2933;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -75,19 +98,43 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{$grey-color-dark};
+  --lime-cream: #d9ed92;
+  --light-green: #b5e48c;
+  --light-green-2: #99d98c;
+  --emerald: #76c893;
+  --ocean-mist: #52b69a;
+  --tropical-teal: #34a0a4;
+  --bondi-blue: #168aad;
+  --cerulean: #1a759f;
+  --baltic-blue: #1e6091;
+  --yale-blue: #184e77;
+  --lemon-chiffon: #fbf8ccff;
+  --powder-petal: #fde4cfff;
+  --cotton-rose: #ffcfd2ff;
+  --pink-orchid: #f1c0e8ff;
+  --mauve: #cfbaf0ff;
+  --baby-blue-ice: #a3c4f3ff;
+  --frosted-blue: #90dbf4ff;
+  --electric-aqua: #8eecf5ff;
+  --aquamarine: #98f5e1ff;
+  --celadon: #b9fbc0ff;
+  --global-bg-color: #101820;
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-text-color: #eef2f6;
+  --global-text-color-light: #c6d0dc;
+  --global-theme-color: #52b69a;
+  --global-hover-color: #99d98c;
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
+  --global-footer-bg-color: #0b1117;
+  --global-footer-text-color: #c6d0dc;
+  --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-divider-color: #293642;
+  --global-card-bg-color: #162330;
+  --global-highlight-color: #99d98c;
+  --global-soft-accent-color: rgba(217, 237, 146, 0.24);
+  --global-soft-blue-color: rgba(82, 182, 154, 0.2);
+  --global-card-shadow: 0 1px 3px rgba(0, 0, 0, 0.22);
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},

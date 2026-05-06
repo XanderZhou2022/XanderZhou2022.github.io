@@ -4,13 +4,14 @@
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
+        {% assign venue_class = entry.abbr | slugify | prepend: 'venue-' %}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
           {% if site.data.venues[entry.abbr].color != blank %}
             {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
           <abbr
-            class="badge rounded w-100"
+            class="badge rounded w-100 {{ venue_class }}"
             {% if venue_style %}
               {{ venue_style }}
             {% endif -%}
@@ -22,7 +23,7 @@
             {% endif %}
           </abbr>
         {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+          <abbr class="badge rounded w-100 {{ venue_class }}">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
       {% if entry.preview %}
@@ -48,7 +49,23 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    {% assign paper_url = null %}
+    {% if entry.url %}
+      {% assign paper_url = entry.url %}
+    {% elsif entry.arxiv %}
+      {% assign paper_url = entry.arxiv | prepend: 'https://arxiv.org/abs/' %}
+    {% elsif entry.eprint and entry.archivePrefix == 'arXiv' %}
+      {% assign paper_url = entry.eprint | prepend: 'https://arxiv.org/abs/' %}
+    {% elsif site.data.socials.scholar_userid and entry.google_scholar_id %}
+      {% capture paper_url %}https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}{% endcapture %}
+    {% endif %}
+    <div class="title">
+      {% if paper_url %}
+        <a href="{{ paper_url }}">{{ entry.title }}</a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -200,6 +217,8 @@
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+      {% elsif entry.eprint and entry.archivePrefix == 'arXiv' %}
+        <a href="https://arxiv.org/abs/{{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
@@ -321,7 +340,7 @@
                 role="button"
               >
                 <img
-                  src="https://img.shields.io/badge/scholar-{{ scholar_citation_count }}-4285F4?logo=googlescholar&labelColor=beige"
+                  src="https://img.shields.io/badge/scholar-{{ scholar_citation_count }}-184e77?logo=googlescholar&labelColor=eef8dd"
                   alt="{{ scholar_citation_count }} Google Scholar citations"
                 >
               </a>

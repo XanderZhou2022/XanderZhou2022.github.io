@@ -4,6 +4,7 @@ permalink: /social_work/digital-literacy/
 title: Digital Literacy Initiatives
 description: Providing technology assistance to seniors and conducting digital skills workshops.
 nav: false
+published: false
 ---
 
 ## Digital Literacy Initiatives
