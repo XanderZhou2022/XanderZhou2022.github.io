@@ -2,46 +2,71 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if page.header_title %}
-        {{ page.header_title }}
-      {% elsif site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    {% if page.subtitle %}
-      <p class="desc">{{ page.subtitle }}</p>
-    {% endif %}
-  </header>
-
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
+  <header class="about-hero">
+    <div class="about-hero-content">
+      <div class="about-hero-text">
+        <h1 class="about-hero-title">
+          {% if page.header_title %}
+            {{ page.header_title }}
+          {% elsif site.title == 'blank' %}
+            {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </h1>
+        {% if page.subtitle %}
+          <p class="about-hero-subtitle">{{ page.subtitle }}</p>
+        {% endif %}
+        <div class="about-hero-links">
+          <a class="about-hero-link about-hero-link-cv" href="{{ '/cv/' | relative_url }}">
+            <i class="fa-regular fa-file-lines"></i>
+            <span>CV</span>
+          </a>
+          {% if site.data.socials.email %}
+            <a class="about-hero-link about-hero-link-email" href="mailto:{{ site.data.socials.email | encode_email }}">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Email</span>
+            </a>
+          {% endif %}
+          {% if site.data.socials.github_username %}
+            <a class="about-hero-link about-hero-link-github" href="https://github.com/{{ site.data.socials.github_username }}">
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub</span>
+            </a>
+          {% endif %}
+          {% if site.data.socials.linkedin_username %}
+            <a class="about-hero-link about-hero-link-linkedin" href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+          {% endif %}
+          {% if site.data.socials.scholar_userid %}
+            <a class="about-hero-link about-hero-link-scholar" href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">
+              <i class="ai ai-google-scholar"></i>
+              <span>Google Scholar</span>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+      {% if page.profile and page.profile.image %}
+        <div class="about-hero-photo">
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% assign profile_image_class = 'img-fluid rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid about-hero-img' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) 180px, 45vw{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
           %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </header>
 
+  <article>
     <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
@@ -77,15 +102,6 @@ layout: default
         {% endif %}
       </div>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}

@@ -53,46 +53,6 @@
       "endDate": "present",
       "summary": "Life trajectory classification from Wikipedia; LLMs and syntactic graph fusion.",
       "highlights": []
-    },
-    {
-      "name": "AI Project — Financial Document QA",
-      "position": "First Author",
-      "startDate": "2025-08-01",
-      "endDate": "2025-10-01",
-      "summary": "Multi-agent reranking for financial document question answering.",
-      "highlights": []
-    },
-    {
-      "name": "AI Project — Inclusive Credit Scoring",
-      "position": "Co-Author",
-      "startDate": "2025-08-01",
-      "endDate": "2025-10-01",
-      "summary": "Fairness and interpretability in credit scoring; nighttime-light features.",
-      "highlights": []
-    },
-    {
-      "name": "Named Entity Recognition in FinTech",
-      "position": "Group Leader & First Author",
-      "startDate": "2024-01-01",
-      "endDate": "2024-05-01",
-      "summary": "Named entity recognition in financial texts; HMM and CRF.",
-      "highlights": []
-    },
-    {
-      "name": "Quadratic Programming Solvers Research",
-      "position": "Group Leader & First Author",
-      "startDate": "2024-09-01",
-      "endDate": "2025-01-01",
-      "summary": "Quadratic programming solvers; IRWA and ADAL for mixed constraints.",
-      "highlights": []
-    },
-    {
-      "name": "Media Engagement Prediction Challenge",
-      "position": "Leader & Author",
-      "startDate": "2024-11-01",
-      "endDate": "2025-01-01",
-      "summary": "Media engagement prediction; tree-based and neural models.",
-      "highlights": []
     }
   ],
   "volunteer": [],
@@ -134,27 +94,19 @@
   "awards": [
     {
       "title": "Second Place, PWC Polytechnic Student Challenge",
-      "date": "2024-01-01",
+      "date": "2024-06-15",
       "awarder": "PWC",
       "summary": "Generative AI Risk Management"
     },
     {
       "title": "American Mathematical Modeling Contest (ICM)",
-      "date": "2024-01-01",
+      "date": "2023-02-01",
       "awarder": "COMAP",
       "summary": ""
     }
   ],
   "certificates": [],
-  "publications": [
-    {
-      "name": "FinCARDS: Card-Based Analyst Reranking for Financial Document Question Answering",
-      "publisher": "arXiv preprint arXiv:2601.06992",
-      "releaseDate": "2026-01-01",
-      "url": "https://arxiv.org/abs/2601.06992",
-      "summary": "Co-authored with F. Zhang, Y. Chen, H. Zhang, P. Nakov, Z. Xie."
-    }
-  ],
+  "publications": [],
   "skills": [
     {
       "name": "Programming",

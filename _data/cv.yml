@@ -49,43 +49,11 @@
       year: Sept 2023 – Present
       description:
         - Life trajectory classification from Wikipedia; LLMs and syntactic graph fusion.
-    - title: AI Project — Human-Aligned Multi-Agent Reranking for Financial Document QA (First Author)
-      institution: —
-      year: Aug 2025 – Oct 2025
-      description:
-        - Multi-agent reranking for financial document question answering.
-    - title: AI Project — Revisiting Nighttime Light Features in Inclusive Credit Scoring (Co-Author)
-      institution: —
-      year: Aug 2025 – Oct 2025
-      description:
-        - Fairness and interpretability in credit scoring; nighttime-light features.
-    - title: AI Project — Named Entity Recognition in Financial Technology (Group Leader & First Author)
-      institution: —
-      year: Jan 2024 – May 2024
-      description:
-        - Named entity recognition in financial texts; HMM and CRF.
-    - title: Quadratic Programming Solvers Research Project (Group Leader & First Author)
-      institution: —
-      year: Sept 2024 – Jan 2025
-      description:
-        - Quadratic programming solvers; IRWA and ADAL for mixed constraints.
-    - title: Machine Learning Program — Media Engagement Prediction Challenge (Leader & Author)
-      institution: —
-      year: Nov 2024 – Jan 2025
-      description:
-        - Media engagement prediction; tree-based and neural models.
-
-- title: Open Source / Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/XanderZhou2022">GitHub</a>
-      year: present
-      description: Personal projects and code contributions.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: "2024"
+    - year: "2023"
       items:
         - Second Place, PWC Polytechnic Student Challenge (Generative AI Risk Management)
         - American Mathematical Modeling Contest (ICM)
