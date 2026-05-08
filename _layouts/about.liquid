@@ -9,7 +9,9 @@ layout: default
           {% if page.header_title %}
             {{ page.header_title }}
           {% elsif site.title == 'blank' %}
-            {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+            {{ site.first_name }}
+            {{ site.middle_name }}
+            {{ site.last_name }}
           {% else %}
             {{ site.title }}
           {% endif %}
@@ -41,7 +43,10 @@ layout: default
             </a>
           {% endif %}
           {% if site.data.socials.scholar_userid %}
-            <a class="about-hero-link about-hero-link-scholar" href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">
+            <a
+              class="about-hero-link about-hero-link-scholar"
+              href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+            >
               <i class="ai ai-google-scholar"></i>
               <span>Google Scholar</span>
             </a>

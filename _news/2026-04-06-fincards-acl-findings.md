@@ -6,4 +6,4 @@ inline: false
 related_posts: false
 ---
 
-**Paper update:** Our paper [*FinCARDS: Card-Based Analyst Reranking for Financial Document Question Answering*](https://arxiv.org/abs/2601.06992) has been accepted to **Findings of ACL 2026**.
+**Paper update:** Our paper [_FinCARDS: Card-Based Analyst Reranking for Financial Document Question Answering_](https://arxiv.org/abs/2601.06992) has been accepted to **Findings of ACL 2026**.

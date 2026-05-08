@@ -71,10 +71,10 @@ Beyond research and coursework, I have been involved in social practice, confere
 
 <div class="row">
   <div class="col-12 mt-4">
-    <div class="card">
+    <div class="card hoverable" style="cursor: pointer;" onclick="window.location.href='/social_work/webt-2025/'">
       <div class="card-body">
-        <h5 class="card-title">Selected Student Representative · Wisconsin Experience Bus Trip</h5>
-        <p class="card-text">Selected as the only Chinese student representative for the Wisconsin Experience Bus Trip Program, participating in cross-cultural academic exploration and collaboration activities.</p>
+        <h5 class="card-title">Wisconsin Experience Bus Trip 2025</h5>
+        <p class="card-text">Five-day UW-Madison leadership journey across Wisconsin, engaging with local communities, environmental education, cultural history, outdoor learning, values-based leadership, conservation, and civic reflection.</p>
         <div class="row">
           <div class="col-md-6">
             <small class="text-muted">
@@ -88,9 +88,9 @@ Beyond research and coursework, I have been involved in social practice, confere
           </div>
         </div>
         <div class="mt-2">
-          <span class="badge badge-primary">Student Representative</span>
-          <span class="badge badge-info">Cross-Cultural Exchange</span>
-          <span class="badge badge-success">UW-Madison</span>
+          <span class="badge badge-primary">Leadership Journey</span>
+          <span class="badge badge-info">Wisconsin Experience</span>
+          <span class="badge badge-success">Community Engagement</span>
         </div>
       </div>
     </div>
