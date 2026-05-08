@@ -36,7 +36,17 @@
           <div class="row">
             <!-- sidebar, which will move to the top on a small screen -->
             <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
+              <nav id="toc-sidebar" class="sticky-top">
+                {% if page.toc.items %}
+                  <ul class="nav navbar-nav">
+                    {% for item in page.toc.items %}
+                      <li>
+                        <a class="nav-link" href="#{{ item.id }}">{{ item.title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </nav>
             </div>
             <!-- main content area -->
             <div class="col-sm-9">{{ content }}</div>

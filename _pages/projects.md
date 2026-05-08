@@ -405,7 +405,7 @@ nav_order: 3
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
+  (function () {
     const content = document.getElementById("project-index-content");
     const nav = document.getElementById("project-timeline-nav");
 
@@ -479,5 +479,5 @@ nav_order: 3
       target.scrollIntoView({ behavior: "smooth", block: "start" });
       history.replaceState(null, "", link.getAttribute("href"));
     });
-  });
+  })();
 </script>

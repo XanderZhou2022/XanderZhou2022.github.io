@@ -75,7 +75,29 @@
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
 
-      {%- for author in entry.author_array limit: author_array_limit -%}
+      {% assign self_author_index = null %}
+      {%- for author in entry.author_array -%}
+        {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+        {% if site.scholar.last_name contains author_last_name %}
+          {% if site.scholar.first_name contains author.first %}
+            {% assign self_author_index = forloop.index0 %}
+            {% break %}
+          {% endif %}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {% assign shown_author_indices = '' %}
+      {% assign shown_author_count = 0 %}
+      {%- for author in entry.author_array -%}
+        {% assign should_show_author = false %}
+        {% if forloop.index <= author_array_limit %}
+          {% assign should_show_author = true %}
+        {% elsif self_author_index == forloop.index0 %}
+          {% assign should_show_author = true %}
+        {% endif %}
+        {% unless should_show_author %}
+          {% continue %}
+        {% endunless %}
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
@@ -95,12 +117,7 @@
           {% endfor %}
         {%- endif -%}
 
-        {%- if forloop.length > 1 -%}
-          {% if forloop.first == false -%}
-            {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
-          {%- endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
-        {% endif %}
+        {% if shown_author_count > 0 %}, {% endif %}
         {%- if author_is_self -%}
           <em>
             {{- author.first }}
@@ -117,8 +134,10 @@
             {{ author_last_html -}}
           {% endif %}
         {%- endif -%}
+        {% assign shown_author_count = shown_author_count | plus: 1 %}
+        {% assign shown_author_indices = shown_author_indices | append: '|' | append: forloop.index0 | append: '|' %}
       {% endfor %}
-      {%- assign more_authors = author_array_size | minus: author_array_limit -%}
+      {%- assign more_authors = author_array_size | minus: shown_author_count -%}
 
       {%- assign more_authors_hide = more_authors | append: ' more author' -%}
       {% if more_authors > 0 %}
@@ -126,11 +145,17 @@
           {% assign more_authors_hide = more_authors_hide | append: 's' %}
         {%- endif -%}
         {% assign more_authors_show = '' %}
-        {%- for author in entry.author_array offset: author_array_limit -%}
-          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
-          {% unless forloop.last %}
+        {% assign hidden_author_count = 0 %}
+        {%- for author in entry.author_array -%}
+          {% assign author_index_marker = '|' | append: forloop.index0 | append: '|' %}
+          {% if shown_author_indices contains author_index_marker %}
+            {% continue %}
+          {% endif %}
+          {% if hidden_author_count > 0 %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
-          {% endunless %}
+          {% endif %}
+          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+          {% assign hidden_author_count = hidden_author_count | plus: 1 %}
         {%- endfor -%}
         {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
         , and
