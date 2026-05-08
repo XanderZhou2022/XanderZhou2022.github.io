@@ -44,12 +44,7 @@ ninja.data = [{id: "nav-about",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-received-hkbu-ph-d-offer",
+        },{id: "news-received-hkbu-ph-d-offer",
           title: 'Received HKBU Ph.D. Offer',
           description: "",
           section: "News",handler: () => {
