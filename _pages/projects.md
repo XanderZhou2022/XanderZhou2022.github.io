@@ -17,7 +17,7 @@ nav_order: 3
     <div class="card hoverable" style="cursor: pointer;" onclick="window.location.href='/projects/icu-agent-system/'">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="/assets/img/projects/icu-agent-system.svg" class="card-img project-card-img" alt="ICU multi-agent system diagram">
+          <img src="/assets/img/projects/icu-agent-system.svg" class="card-img project-card-img" alt="ICU multi-agent system diagram" width="1200" height="720">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -52,7 +52,7 @@ nav_order: 3
     <div class="card hoverable" style="cursor: pointer;" onclick="window.location.href='/projects/cs639-elasticsearch-map/'">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="/assets/img/projects/cs639-elasticsearch-map.png" class="card-img project-card-img" alt="Madison interactive Kibana map">
+          <img src="/assets/img/projects/thumbs/cs639-elasticsearch-map-thumb.webp" class="card-img project-card-img" alt="Madison interactive Kibana map" width="640" height="342" loading="lazy" decoding="async">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -83,7 +83,7 @@ nav_order: 3
     <div class="card hoverable" style="cursor: pointer;" onclick="window.location.href='/projects/cs639-elt-pipeline/'">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="/assets/img/projects/cs639-elt-pipeline.png" class="card-img project-card-img" alt="Snowflake dbt transformation stage">
+          <img src="/assets/img/projects/thumbs/cs639-elt-pipeline-thumb.webp" class="card-img project-card-img" alt="Snowflake dbt transformation stage" width="640" height="367" loading="lazy" decoding="async">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -114,7 +114,7 @@ nav_order: 3
     <div class="card hoverable" style="cursor: pointer;" onclick="window.location.href='/projects/cs639-kaggle-forecasting/'">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="/assets/img/projects/cs639-kaggle-forecasting.png" class="card-img project-card-img" alt="Data science project lifecycle">
+          <img src="/assets/img/projects/thumbs/cs639-kaggle-forecasting-thumb.webp" class="card-img project-card-img" alt="Data science project lifecycle" width="640" height="628" loading="lazy" decoding="async">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -145,7 +145,7 @@ nav_order: 3
     <div class="card hoverable" style="cursor: pointer;" onclick="window.location.href='/projects/cs639-llm-rag/'">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="/assets/img/projects/cs639-llm-rag.png" class="card-img project-card-img" alt="LLM RAG pipeline flow chart">
+          <img src="/assets/img/projects/thumbs/cs639-llm-rag-thumb.webp" class="card-img project-card-img" alt="LLM RAG pipeline flow chart" width="640" height="699" loading="lazy" decoding="async">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -176,7 +176,7 @@ nav_order: 3
     <div class="card hoverable" style="cursor: pointer;" onclick="window.location.href='/projects/quant-factor-rotation/'">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="/assets/img/projects/quant-factor-rotation.png" class="card-img project-card-img" alt="Quantitative factor rotation cumulative returns">
+          <img src="/assets/img/projects/thumbs/quant-factor-rotation-thumb.webp" class="card-img project-card-img" alt="Quantitative factor rotation cumulative returns" width="640" height="382" loading="lazy" decoding="async">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -207,7 +207,7 @@ nav_order: 3
     <div class="card hoverable" style="cursor: pointer;" onclick="window.location.href='/projects/citation-impact/'">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="/assets/img/projects/citation-impact.png" class="card-img project-card-img" alt="Citation prediction model comparison">
+          <img src="/assets/img/projects/thumbs/citation-impact-thumb.webp" class="card-img project-card-img" alt="Citation prediction model comparison" width="640" height="425" loading="lazy" decoding="async">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -238,7 +238,7 @@ nav_order: 3
     <div class="card hoverable" style="cursor: pointer;" onclick="window.location.href='/projects/badgercs-career-nexus/'">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="/assets/img/projects/badgercs-career-nexus.jpg" class="card-img project-card-img" alt="BadgerCS Career Nexus visual background">
+          <img src="/assets/img/projects/thumbs/badgercs-career-nexus-thumb.webp" class="card-img project-card-img" alt="BadgerCS Career Nexus visual background" width="640" height="427" loading="lazy" decoding="async">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -273,7 +273,7 @@ nav_order: 3
     <div class="card hoverable" style="cursor: pointer;" onclick="window.location.href='/projects/weibo-engagement-prediction/'">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="/assets/img/projects/weibo-engagement-prediction.png" class="card-img project-card-img" alt="Weibo engagement prediction project pipeline">
+          <img src="/assets/img/projects/thumbs/weibo-engagement-prediction-thumb.webp" class="card-img project-card-img" alt="Weibo engagement prediction project pipeline" width="640" height="299" loading="lazy" decoding="async">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -301,7 +301,7 @@ nav_order: 3
     <div class="card hoverable" style="cursor: pointer;" onclick="window.location.href='/projects/qp-solver-benchmarking/'">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="/assets/img/projects/qp-solver-benchmarking.png" class="card-img project-card-img" alt="Quadratic programming solver convergence plots">
+          <img src="/assets/img/projects/thumbs/qp-solver-benchmarking-thumb.webp" class="card-img project-card-img" alt="Quadratic programming solver convergence plots" width="640" height="426" loading="lazy" decoding="async">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -333,7 +333,7 @@ nav_order: 3
     <div class="card hoverable" style="cursor: pointer;" onclick="window.location.href='/projects/fintech-ner/'">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="/assets/img/projects/fintech-ner.png" class="card-img project-card-img" alt="FinTech named entity recognition confusion matrix">
+          <img src="/assets/img/projects/thumbs/fintech-ner-thumb.webp" class="card-img project-card-img" alt="FinTech named entity recognition confusion matrix" width="640" height="534" loading="lazy" decoding="async">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -364,7 +364,7 @@ nav_order: 3
     <div class="card hoverable" style="cursor: pointer;" onclick="window.location.href='/projects/life-trajectory/'">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="/assets/img/projects/life-trajectory.png" class="card-img project-card-img" alt="Life trajectory classification project figure">
+          <img src="/assets/img/projects/thumbs/life-trajectory-thumb.webp" class="card-img project-card-img" alt="Life trajectory classification project figure" width="640" height="302" loading="lazy" decoding="async">
         </div>
         <div class="col-md-8">
           <div class="card-body">
