@@ -369,11 +369,11 @@ nav_order: 3
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Life Trajectory Classification Research</h5>
-            <p class="card-text">Fine-grained classification of life trajectories from Wikipedia using large language models and syntactic graph fusion.</p>
+            <p class="card-text">Fine-grained classification of life trajectories from Wikipedia using large language models and syntactic graph fusion. Accepted as an oral presentation at ICSC 2026.</p>
             <div class="row">
               <div class="col-md-6">
                 <small class="text-muted">
-                  <i class="fas fa-flask"></i> Research Project
+                  <i class="fas fa-microphone"></i> ICSC 2026 Oral
                 </small>
               </div>
               <div class="col-md-6">
@@ -386,6 +386,7 @@ nav_order: 3
               <span class="badge badge-primary">Research</span>
               <span class="badge badge-info">LLM</span>
               <span class="badge badge-success">Graph Fusion</span>
+              <span class="badge badge-warning">ICSC 2026</span>
             </div>
           </div>
         </div>

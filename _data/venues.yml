@@ -11,3 +11,7 @@
 "ICAIF Workshop":
   url: https://ai4f-workshop.github.io/
   color: "#b86a00"
+
+"ICSC Oral":
+  url: https://icsc-conf.github.io/
+  color: "#1e6091"

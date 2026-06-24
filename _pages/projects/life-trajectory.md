@@ -12,6 +12,8 @@ nav: false
 
 Research on fine-grained classification of life trajectories from Wikipedia using large language models and syntactic graph fusion. Conducted at ShanghaiTech University, Financial Intelligence Laboratory (PI: [Haipeng Zhang](https://faculty.sist.shanghaitech.edu.cn/zhanghp/)).
 
+**Publication update:** Accepted as an oral presentation to the [International Conference on Social Computing (ICSC 2026)](https://icsc-conf.github.io/). [arXiv](https://arxiv.org/abs/2602.04503)
+
 ### Overview
 
 This project studies how to model biographical trajectories from large-scale Wikipedia-style data. The core idea is to combine textual representations from LLMs with syntactic and graph-based structural signals, so that the model can better capture career paths, role transitions, and fine-grained life-stage patterns.
@@ -22,7 +24,7 @@ This project studies how to model biographical trajectories from large-scale Wik
 - Explored the use of LLM features and syntactic graph fusion for richer person-level representations.
 - Connected the project to broader interests in real-world data understanding and data-agent research.
 
-**Keywords:** Life trajectory, Wikipedia, LLM, syntactic graph fusion, graph neural networks.
+**Keywords:** Life trajectory, Wikipedia, LLM, syntactic graph fusion, graph neural networks, social computing.
 
 ---
 
