@@ -59,6 +59,11 @@ ninja.data = [{id: "nav-about",
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-05-06-finreporting-acl-demo/";
+            },},{id: "news-life-trajectory-paper-accepted-to-icsc-2026-as-oral",
+          title: 'Life Trajectory Paper Accepted to ICSC 2026 as Oral',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-06-24-life-trajectories-icsc-oral/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
