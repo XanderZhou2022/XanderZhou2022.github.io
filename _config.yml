@@ -297,6 +297,7 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
+    demo,
     google_scholar_id,
     html,
     inspirehep_id,

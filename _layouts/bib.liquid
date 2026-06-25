@@ -210,6 +210,8 @@
     {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
+    {% elsif entry.address %}
+      {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.address }}{% endcapture %}
     {% endif -%}
     {% if entry.additional_info %}
       {% capture entrytype %}{{ entrytype }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
@@ -296,6 +298,9 @@
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+      {% endif %}
+      {% if entry.demo %}
+        <a href="{{ entry.demo }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
