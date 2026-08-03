@@ -64,6 +64,11 @@ ninja.data = [{id: "nav-about",
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-06-24-life-trajectories-icsc-oral/";
+            },},{id: "news-attended-acl-2026",
+          title: 'Attended ACL 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-07-07-acl-2026/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
