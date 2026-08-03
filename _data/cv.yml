@@ -13,13 +13,13 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Computer Science (Incoming)
+    - title: Ph.D. in Computer Science
       institution: Hong Kong Baptist University, Hong Kong SAR
       year: Sept 2026 – June 2030 (expected)
       description:
-        - 'Advisor: <a href="https://renchi.ac.cn/" target="_blank" rel="noopener">Renchi Yang</a>'
+        - 'Advisor: Prof. <a href="https://renchi.ac.cn/" target="_blank" rel="noopener">Renchi Yang</a>'
         - Research direction: data agent.
-        - Member of <a href="https://renchi.ac.cn/team/" target="_blank" rel="noopener">LAGAS Group</a> (HKBU Database Lab).
+        - Member of <a href="https://renchi.ac.cn/team/" target="_blank" rel="noopener">LAGAS Group</a>, affiliated with the <a href="https://www.comp.hkbu.edu.hk/~db/" target="_blank" rel="noopener">Database Research Group at HKBU</a>.
     - title: Visiting Student, Computer Sciences
       institution: University of Wisconsin-Madison, Madison, WI
       year: Jan 2025 – Aug 2025
@@ -35,18 +35,23 @@
   type: time_table
   contents:
     - title: Research Assistant (Remote)
-      institution: 'Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). Supervised by <a href="https://mbzuai.ac.ae/study/faculty/preslav-nakov/" target="_blank" rel="noopener">Preslav Nakov</a> and <a href="https://scholar.google.com/citations?user=W9mk-R4AAAAJ&hl=en" target="_blank" rel="noopener">Zhuohan Xie</a>.'
+      institution: 'Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). Supervised by Prof. <a href="https://mbzuai.ac.ae/study/faculty/preslav-nakov/" target="_blank" rel="noopener">Preslav Nakov</a> and <a href="https://scholar.google.com/citations?user=W9mk-R4AAAAJ&hl=en" target="_blank" rel="noopener">Zhuohan Xie</a>.'
       year: Nov 2025 – Present
       description:
         - Financial AI.
     - title: Research Assistant (Remote)
-      institution: 'The University of Tokyo & Nikkei. Supervised by <a href="https://scholar.google.com/citations?user=s78gW7kAAAAJ&hl=en" target="_blank" rel="noopener">Fan Zhang</a> and <a href="https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/chen_yu/" target="_blank" rel="noopener">Yu Chen</a>.'
+      institution: 'The University of Tokyo & Nikkei. Supervised by <a href="https://scholar.google.com/citations?user=s78gW7kAAAAJ&hl=en" target="_blank" rel="noopener">Fan Zhang</a> and Prof. <a href="https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/chen_yu/" target="_blank" rel="noopener">Yu Chen</a>.'
       year: Nov 2025 – Present
       description:
         - Financial LLM.
+    - title: Research Assistant
+      institution: 'ShanghaiTech University, Financial Intelligence Laboratory (PI: Prof. <a href="https://faculty.sist.shanghaitech.edu.cn/zhanghp/" target="_blank" rel="noopener">Haipeng Zhang</a>)'
+      year: Jul 2026 – Aug 2026
+      description:
+        - Research assistant at the Financial Intelligence Laboratory.
     - title: Undergraduate Researcher
-      institution: 'ShanghaiTech University, Financial Intelligence Laboratory (PI: <a href="https://faculty.sist.shanghaitech.edu.cn/zhanghp/" target="_blank" rel="noopener">Haipeng Zhang</a>)'
-      year: Sept 2023 – Present
+      institution: 'ShanghaiTech University, Financial Intelligence Laboratory (PI: Prof. <a href="https://faculty.sist.shanghaitech.edu.cn/zhanghp/" target="_blank" rel="noopener">Haipeng Zhang</a>)'
+      year: Sept 2023 – Jun 2026
       description:
         - Life trajectory classification from Wikipedia; LLMs and syntactic graph fusion.
 

@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Yixi (Xander) Zhou",
-    "label": "Incoming Ph.D. Student",
+    "label": "Ph.D. Student",
     "image": "",
     "email": "zhouyx2022@shanghaitech.edu.cn",
     "phone": "",
@@ -32,7 +32,7 @@
       "url": "https://mbzuai.ac.ae/study/faculty/preslav-nakov/",
       "startDate": "2025-11-01",
       "endDate": "present",
-      "summary": "Financial AI. Supervised by Preslav Nakov and Zhuohan Xie.",
+      "summary": "Financial AI. Supervised by Prof. Preslav Nakov and Zhuohan Xie.",
       "highlights": []
     },
     {
@@ -41,7 +41,16 @@
       "url": "https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/chen_yu/",
       "startDate": "2025-11-01",
       "endDate": "present",
-      "summary": "Financial LLM. Supervised by Fan Zhang and Yu Chen.",
+      "summary": "Financial LLM. Supervised by Fan Zhang and Prof. Yu Chen.",
+      "highlights": []
+    },
+    {
+      "name": "ShanghaiTech University, Financial Intelligence Laboratory",
+      "position": "Research Assistant",
+      "url": "https://faculty.sist.shanghaitech.edu.cn/zhanghp/",
+      "startDate": "2026-07-01",
+      "endDate": "2026-08-31",
+      "summary": "Research assistant at the Financial Intelligence Laboratory. Supervised by Prof. Haipeng Zhang.",
       "highlights": []
     },
     {
@@ -49,8 +58,8 @@
       "position": "Undergraduate Researcher",
       "url": "https://faculty.sist.shanghaitech.edu.cn/zhanghp/",
       "startDate": "2023-09-01",
-      "endDate": "present",
-      "summary": "Life trajectory classification from Wikipedia; LLMs and syntactic graph fusion.",
+      "endDate": "2026-06-30",
+      "summary": "Life trajectory classification from Wikipedia; LLMs and syntactic graph fusion. Supervised by Prof. Haipeng Zhang.",
       "highlights": []
     }
   ],
@@ -61,11 +70,11 @@
       "location": "Hong Kong SAR",
       "url": "https://www.hkbu.edu.hk/",
       "area": "Computer Science",
-      "studyType": "Ph.D. (Incoming)",
+      "studyType": "Ph.D.",
       "startDate": "2026-09-01",
       "endDate": "2030-06-01",
       "courses": [],
-      "summary": "Advisor: Renchi Yang (https://renchi.ac.cn/). Research direction: data agent. Member of LAGAS Group (https://renchi.ac.cn/team/)."
+      "summary": "Advisor: Prof. Renchi Yang (https://renchi.ac.cn/). Research direction: data agent. Member of LAGAS Group (https://renchi.ac.cn/team/), affiliated with the Database Research Group at HKBU (https://www.comp.hkbu.edu.hk/~db/)."
     },
     {
       "institution": "University of Wisconsin-Madison",

@@ -11,6 +11,7 @@ nav_order: 6
 
 - ACL Rolling Review (ARR May), Reviewer, 2026
 - NeurIPS, Reviewer, 2026
+- ICDM, Reviewer, 2026
 
 <div class="mt-5"></div>
 
