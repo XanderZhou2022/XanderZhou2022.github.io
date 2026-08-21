@@ -32,8 +32,10 @@ I am **Yixi (Xander) Zhou**, a Ph.D. student in computer science at [Hong Kong B
 
 ## Research & Interests
 
-**Ph.D. research direction:** data agent.
+**Ph.D. research direction:** data agents and LLM-based systems for complex data.
 
-My work spans **life trajectory classification** (LLMs and graph fusion on Wikipedia-style data), **financial AI and NLP**, **optimization**, and **predictive analytics**. My research interests include machine learning, natural language processing, and financial technology—LLMs, graph fusion, fairness in credit scoring, and interpretable retrieval. I am particularly interested in algorithms and systems that handle complex, real-world data and contribute to AI applications in data management and analytics.
+My research centers on **data agents** and reliable **LLM-based systems** that can reason over complex, real-world data. I am particularly interested in combining retrieval, structured reasoning, and trustworthy evaluation to build practical AI systems for data management and analytics.
+
+My recent work spans **financial information retrieval and document QA**, **grounded LLM explanations of time series**, **event propagation for predictive financial analysis**, **structural evaluation of Text-to-SQL generation**, and **large-scale life trajectory classification**. More broadly, I am interested in natural language processing, data mining, graph-based learning, and interpretable AI.
 
 If you are interested in specific projects, see the [CV](/cv/) (Experience and Projects sections). I am passionate about bridging the gap between theoretical research and practical applications, and I look forward to continuing my academic journey while contributing to meaningful technological innovations.

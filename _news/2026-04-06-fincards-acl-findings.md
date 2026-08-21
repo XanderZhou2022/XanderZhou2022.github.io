@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "FinCARDS Accepted to ACL 2026 Findings"
+title: "🎉 FinCARDS Accepted to ACL 2026 Findings"
 date: 2026-04-06 12:00:00+0800
 inline: false
 related_posts: false
 ---
 
-**Paper update:** Our paper [_FinCARDS: Card-Based Analyst Reranking for Financial Document Question Answering_](https://arxiv.org/abs/2601.06992) has been accepted to **Findings of ACL 2026**.
+🎉 **Excited to share:** Our paper [_FinCARDS: Card-Based Analyst Reranking for Financial Document Question Answering_](https://arxiv.org/abs/2601.06992) has been accepted to **Findings of ACL 2026**. Very happy to see this work accepted—congratulations to the whole team! 😊
