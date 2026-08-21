@@ -15,3 +15,13 @@
 "ICSC Oral":
   url: https://icsc-conf.github.io/
   color: "#1e6091"
+
+"EMNLP Industry":
+  color: "#7b2cbf"
+
+"EMNLP Findings":
+  color: "#2a6f97"
+
+"IEEE ICDM":
+  url: https://icdm2026.neu.edu.cn/
+  color: "#00629b"
