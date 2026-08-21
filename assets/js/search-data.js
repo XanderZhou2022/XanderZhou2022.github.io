@@ -45,42 +45,42 @@ ninja.data = [{id: "nav-about",
             window.location.href = "/teaching/";
           },
         },{id: "news-received-hkbu-ph-d-offer",
-          title: 'Received HKBU Ph.D. Offer',
+          title: '🎓 Received HKBU Ph.D. Offer',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-01-16-hkbu-offer/";
             },},{id: "news-fincards-accepted-to-acl-2026-findings",
-          title: 'FinCARDS Accepted to ACL 2026 Findings',
+          title: '🎉 FinCARDS Accepted to ACL 2026 Findings',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-04-06-fincards-acl-findings/";
             },},{id: "news-finreporting-accepted-to-acl-2026-demo",
-          title: 'FinReporting Accepted to ACL 2026 Demo',
+          title: '🎉 FinReporting Accepted to ACL 2026 Demo',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-05-06-finreporting-acl-demo/";
             },},{id: "news-life-trajectory-paper-accepted-to-icsc-2026-as-oral",
-          title: 'Life Trajectory Paper Accepted to ICSC 2026 as Oral',
+          title: '🎉 Life Trajectory Paper Accepted to ICSC 2026 as Oral',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-06-24-life-trajectories-icsc-oral/";
-            },},{id: "news-attended-acl-2026",
-          title: 'Attended ACL 2026',
+            },},{id: "news-️-attended-acl-2026",
+          title: '✈️ Attended ACL 2026',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-07-07-acl-2026/";
             },},{id: "news-event-type-propagation-graphs-accepted-to-ieee-icdm-2026",
-          title: 'Event-Type Propagation Graphs Accepted to IEEE ICDM 2026',
+          title: '🎉 Event-Type Propagation Graphs Accepted to IEEE ICDM 2026',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-08-17-event-type-graphs-icdm/";
             },},{id: "news-prism-accepted-to-emnlp-2026-industry-track",
-          title: 'PRISM Accepted to EMNLP 2026 Industry Track',
+          title: '🎉 PRISM Accepted to EMNLP 2026 Industry Track',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-08-21-prism-emnlp-industry/";
             },},{id: "news-timeclaimbench-accepted-to-emnlp-2026-findings",
-          title: 'TimeClaimBench Accepted to EMNLP 2026 Findings',
+          title: '🎉 TimeClaimBench Accepted to EMNLP 2026 Findings',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-08-21-timeclaimbench-emnlp-findings/";
