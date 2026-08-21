@@ -69,6 +69,21 @@ ninja.data = [{id: "nav-about",
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-07-07-acl-2026/";
+            },},{id: "news-event-type-propagation-graphs-accepted-to-ieee-icdm-2026",
+          title: 'Event-Type Propagation Graphs Accepted to IEEE ICDM 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-08-17-event-type-graphs-icdm/";
+            },},{id: "news-prism-accepted-to-emnlp-2026-industry-track",
+          title: 'PRISM Accepted to EMNLP 2026 Industry Track',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-08-21-prism-emnlp-industry/";
+            },},{id: "news-timeclaimbench-accepted-to-emnlp-2026-findings",
+          title: 'TimeClaimBench Accepted to EMNLP 2026 Findings',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-08-21-timeclaimbench-emnlp-findings/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
