@@ -9,6 +9,9 @@ nav_order: 6
 
 ## Academic Service
 
+- AAAI Conference on Artificial Intelligence (AAAI), Reviewer, 2027
+- TAE Workshop @ NeurIPS, Reviewer, 2026
+- FinNLP Workshop @ EMNLP, Reviewer, 2026
 - ACL Rolling Review (ARR May), Reviewer, 2026
 - NeurIPS, Reviewer, 2026
 - ICDM, Reviewer, 2026

@@ -140,7 +140,7 @@ nav_order: 7
           <span class="badge badge-info">CS150A</span>
         </div>
         <div class="mt-3">
-          <a href="mailto:zhouyx2022@shanghaitech.edu.cn" class="btn btn-outline-info btn-sm">
+          <a href="mailto:yxzhou@comp.hkbu.edu.hk" class="btn btn-outline-info btn-sm">
             <i class="fas fa-envelope"></i> Contact TA
           </a>
         </div>
