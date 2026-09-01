@@ -84,6 +84,11 @@ ninja.data = [{id: "nav-about",
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-08-21-timeclaimbench-emnlp-findings/";
+            },},{id: "news-synthetic-data-ecology-accepted-to-icdm-2026-bluesky-track",
+          title: '🎉 Synthetic Data Ecology Accepted to ICDM 2026 BlueSky Track',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-09-01-synthetic-data-ecology-icdm-bluesky/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
