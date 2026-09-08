@@ -84,6 +84,11 @@ ninja.data = [{id: "nav-about",
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-08-21-timeclaimbench-emnlp-findings/";
+            },},{id: "news-sqlstructeval-accepted-to-aacl-ijcnlp-2026-findings",
+          title: '🎉 SQLStructEval Accepted to AACL-IJCNLP 2026 Findings',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-09-08-sqlstructeval-aacl-findings/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
