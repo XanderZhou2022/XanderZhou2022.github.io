@@ -6,4 +6,4 @@ inline: false
 related_posts: false
 ---
 
-🎉 **Excited to share:** Our paper *Event-Type Propagation Graphs: A Lag-Aware Layer for Predictive Financial Analysis* has been accepted to the **Applied Track at IEEE ICDM 2026**. Very happy about the result—congratulations to the whole team! 😊
+🎉 **Excited to share:** Our paper _Event-Type Propagation Graphs: A Lag-Aware Layer for Predictive Financial Analysis_ has been accepted to the **Applied Track at IEEE ICDM 2026**. Very happy about the result—congratulations to the whole team! 😊

@@ -6,4 +6,4 @@ inline: false
 related_posts: false
 ---
 
-🎉 **Excited to share:** Our paper *TimeClaimBench: A Claim-Level Benchmark for Grounded LLM Explanations of Time Series* has been accepted to **Findings of EMNLP 2026**. Very happy about the result—congratulations to the whole team! 😊
+🎉 **Excited to share:** Our paper _TimeClaimBench: A Claim-Level Benchmark for Grounded LLM Explanations of Time Series_ has been accepted to **Findings of EMNLP 2026**. Very happy about the result—congratulations to the whole team! 😊
