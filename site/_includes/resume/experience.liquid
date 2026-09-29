@@ -1,0 +1,49 @@
+{% assign items = include.items | sort: 'startDate' | reverse %}
+{% for item in items %}
+  {% assign institution = item.institution | default: item.name %}
+  <article class="experience-row">
+    {% include organization_logo.liquid name=institution %}
+    <div class="experience-body">
+      <h3>
+        {% if item.url -%}
+          <a href="{{ item.url }}">{{ institution }}</a>
+        {%- else -%}
+          {{- institution -}}
+        {%- endif %}
+      </h3>
+      {% if include.kind == 'education' %}
+        <p class="experience-position">{% if item.studyType == 'Ph.D.' %}Ph.D{% else %}{{ item.studyType }}{% endif %} · {{ item.area }}</p>
+      {% else %}
+        <p class="experience-position">{{ item.position }}</p>
+      {% endif %}
+      {% if item.summary %}
+        <div class="experience-summary">{{ item.summary | markdownify }}</div>
+      {% endif %}
+      {% if item.location %}
+        <p class="experience-meta">{{ item.location }}</p>
+      {% endif %}
+      {% if item.highlights.size > 0 %}
+        <ul>
+          {% for highlight in item.highlights %}
+            <li>{{ highlight }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if item.courses.size > 0 %}
+        <ul>
+          {% for course in item.courses %}
+            <li>{{ course }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+    <div class="experience-date">
+      {{ item.startDate | date: '%b %Y' }} –
+      {% assign end_lower = item.endDate | downcase %}
+      {% if item.endDate == blank or end_lower == 'present' %}Present{% else %}{{ item.endDate | date: '%b %Y' }}{% endif %}
+      {% if include.kind == 'education' and item.studyType == 'Ph.D.' -%}
+        <span>Expected</span>
+      {%- endif %}
+    </div>
+  </article>
+{% endfor %}

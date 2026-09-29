@@ -1,0 +1,117 @@
+---
+layout: default
+---
+<div class="post home-profile">
+  <header class="about-hero">
+    <h1 class="about-hero-title">
+      {% if page.header_title %}
+        {{ page.header_title }}
+      {% elsif site.title == 'blank' %}
+        {{ site.first_name }}
+        {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <div class="about-hero-content">
+      <div class="about-hero-text">
+        <div class="about-intro">{{ content }}</div>
+        <div class="about-hero-links">
+          <a class="about-hero-link about-hero-link-cv" href="{{ '/cv/' | relative_url }}">
+            <i class="fa-regular fa-file-lines"></i>
+            <span>CV</span>
+          </a>
+          {% if site.data.socials.email %}
+            <a class="about-hero-link about-hero-link-email" href="mailto:{{ site.data.socials.email | encode_email }}">
+              <img class="profile-resource-icon" src="{{ '/assets/img/link-icons/email.png' | relative_url }}" width="22" height="22" alt="">
+              <span>Email</span>
+            </a>
+          {% endif %}
+          {% if site.data.socials.github_username %}
+            <a class="about-hero-link about-hero-link-github" href="https://github.com/{{ site.data.socials.github_username }}">
+              <img
+                class="profile-resource-icon resource-icon-github"
+                src="{{ '/assets/img/link-icons/github.svg' | relative_url }}"
+                width="22"
+                height="22"
+                alt=""
+              >
+              <span>GitHub</span>
+            </a>
+          {% endif %}
+          {% if site.data.socials.linkedin_username %}
+            <a class="about-hero-link about-hero-link-linkedin" href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+          {% endif %}
+          {% if site.data.socials.scholar_userid %}
+            <a
+              class="about-hero-link about-hero-link-scholar"
+              href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+            >
+              <img class="profile-resource-icon" src="{{ '/assets/img/link-icons/google-scholar.png' | relative_url }}" width="22" height="22" alt="">
+              <span>Google Scholar</span>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+      {% if page.profile and page.profile.image %}
+        <div class="about-hero-photo">
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid about-hero-img' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) 240px, 45vw{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.header_title
+            cache_bust=true
+          %}
+        </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <article>
+    <!-- News -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+      </h2>
+      {% include news.liquid limit=true %}
+      {% assign visible_news = page.announcements.limit | default: 3 %}
+      {% if site.news.size > visible_news %}
+        <details class="home-more-news">
+          <summary><span class="news-expand-label">More updates</span><span class="news-collapse-label">Fewer updates</span></summary>
+          {% include news.liquid offset=visible_news %}
+        </details>
+      {% endif %}
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <div class="selected-publications-header">
+        <h2>
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+        </h2>
+        <a href="{{ '/publications/' | relative_url }}" class="home-all-publications">All Research Papers</a>
+      </div>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% include newsletter.liquid center=true %}
+    {% endif %}
+  </article>
+</div>

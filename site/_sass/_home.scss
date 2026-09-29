@@ -1,0 +1,203 @@
+// Compact introduction and navigation for the home page.
+.home-profile {
+  .about-hero {
+    border: 0;
+    padding: 1.25rem 0 0;
+    margin-bottom: 2.8rem;
+  }
+  .about-hero-content {
+    grid-template-columns: minmax(0, 1fr) 240px;
+    align-items: start;
+    gap: 42px;
+  }
+  .about-hero-text {
+    text-align: left;
+  }
+  .about-hero-title {
+    font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+    font-size: clamp(2.4rem, 5vw, 3.2rem);
+    font-weight: 400;
+    line-height: 1.15;
+    margin-bottom: 24px;
+  }
+  .about-intro {
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    p {
+      margin-bottom: 15px;
+    }
+  }
+  .about-hero-photo {
+    padding-top: 0;
+  }
+  .about-hero-img {
+    width: 240px;
+    max-width: 100%;
+    border-radius: 30px !important;
+    box-shadow: none;
+  }
+  .about-hero-links {
+    justify-content: flex-start;
+    gap: 15px 21px;
+    margin-top: 24px;
+  }
+  .about-hero-link {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: var(--showcase-link);
+    font-weight: 500;
+    line-height: 1.5;
+    &:hover {
+      text-decoration: underline;
+    }
+    i {
+      font-size: 1.2rem;
+    }
+  }
+  > article > h2,
+  .selected-publications-header h2 {
+    font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  .news {
+    margin: 18px 0 0;
+    th {
+      font-weight: 400;
+      color: var(--showcase-muted);
+      white-space: nowrap;
+      padding-right: 20px;
+    }
+    td,
+    th {
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+    .table-responsive {
+      overflow: visible;
+    }
+  }
+  .home-more-news {
+    margin: 8px 0 40px;
+    summary {
+      width: fit-content;
+      cursor: pointer;
+      font-size: 0.85rem;
+      color: var(--showcase-link);
+      &:focus-visible {
+        outline: 2px solid var(--showcase-link);
+        outline-offset: 4px;
+      }
+    }
+    .news-collapse-label {
+      display: none;
+    }
+    &[open] {
+      .news-expand-label {
+        display: none;
+      }
+      .news-collapse-label {
+        display: inline;
+      }
+    }
+    .news {
+      margin-top: 10px;
+    }
+  }
+  .home-all-publications {
+    font-size: 0.9rem;
+    color: var(--showcase-link);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 3px;
+  }
+  .publications {
+    margin-top: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .home-profile {
+    .about-hero-content {
+      grid-template-columns: minmax(0, 1fr) 160px;
+      gap: 24px;
+    }
+    .about-hero-photo {
+      order: 0;
+    }
+    .about-hero-img {
+      width: 160px;
+      border-radius: 20px !important;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .home-profile {
+    .about-hero-content {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .about-hero-photo {
+      order: -1;
+      justify-self: start;
+      padding: 0;
+    }
+    .about-hero-img {
+      width: 130px;
+    }
+    .about-hero-title {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .news th {
+      padding-right: 12px;
+      font-size: 0.85rem;
+    }
+    .selected-publications-header {
+      align-items: flex-start;
+      gap: 12px;
+    }
+  }
+}
+
+.home-profile .about-hero-link {
+  font-size: 15.5px;
+  font-weight: 400;
+  gap: 7px;
+  span {
+    color: inherit;
+  }
+  .profile-resource-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+}
+.home-profile .about-hero-link-email {
+  order: 1;
+}
+.home-profile .about-hero-link-scholar {
+  order: 2;
+}
+.home-profile .about-hero-link-github {
+  order: 3;
+}
+.home-profile .about-hero-link-cv {
+  order: 4;
+}
+.home-profile .about-hero-link-linkedin {
+  order: 5;
+}
+.home-profile .about-intro a {
+  color: var(--showcase-link);
+}
+
+html[data-theme="dark"] .home-profile .about-hero-link {
+  &,
+  &:hover,
+  &:focus {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+  }
+}

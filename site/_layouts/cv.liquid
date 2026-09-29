@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<div class="post experience-page">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+  <article>
+    {% assign resume = site.data.resume %}
+    <section class="experience-section">
+      <h2>Education</h2>
+      {% include resume/experience.liquid items=resume.education kind='education' %}
+    </section>
+    <section class="experience-section">
+      <h2>Experience</h2>
+      {% include resume/experience.liquid items=resume.work kind='work' %}
+    </section>
+    <section class="experience-section">
+      <h2>Honors & Awards</h2>
+      {% for item in resume.awards %}
+        <div class="experience-row experience-row-plain">
+          <div class="experience-body">
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.awarder }} · {{ item.summary }}</p>
+          </div>
+          <div class="experience-date">{{ item.date | date: '%Y' }}</div>
+        </div>
+      {% endfor %}
+    </section>
+    <section class="experience-section">
+      <h2>Skills</h2>
+      {% for item in resume.skills %}
+        <p>
+          <strong>{{ item.name }}:</strong> {{ item.keywords | join: ', ' }}
+        </p>
+      {% endfor %}
+    </section>
+    <section class="experience-section">
+      <h2>Languages</h2>
+      {% for item in resume.languages %}
+        <p>
+          <strong>{{ item.language }}:</strong> {{ item.fluency }}
+        </p>
+      {% endfor %}
+    </section>
+    <section class="experience-section">
+      <h2>Interests</h2>
+      {% for item in resume.interests %}
+        <p>
+          <strong>{{ item.name }}:</strong> {{ item.keywords | join: ', ' }}
+        </p>
+      {% endfor %}
+    </section>
+  </article>
+</div>

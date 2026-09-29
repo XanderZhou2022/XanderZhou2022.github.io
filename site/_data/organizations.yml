@@ -1,0 +1,20 @@
+- match: Hong Kong Baptist
+  name: Hong Kong Baptist University
+  image: hkbu-mark.svg
+  dark_image: hkbu-mark-dark.svg
+- match: Wisconsin
+  name: University of Wisconsin–Madison
+  image: wisc-mark.svg
+  dark_image: wisc-mark-dark.svg
+- match: ShanghaiTech
+  name: ShanghaiTech University
+  image: shanghaitech-mark.svg
+  dark_image: shanghaitech-mark-dark.svg
+- match: Tokyo
+  name: The University of Tokyo
+  image: utokyo.png
+  dark_image: utokyo.png
+- match: MBZUAI
+  name: Mohamed bin Zayed University of Artificial Intelligence
+  image: mbzuai-mark.svg
+  dark_image: mbzuai-mark-dark.svg

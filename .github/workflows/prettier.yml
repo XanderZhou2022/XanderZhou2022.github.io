@@ -22,16 +22,16 @@ jobs:
         with:
           node-version: "24"
       - name: Install Prettier 💾
-        run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+        run: npm ci --prefix tools/format
       - name: Prettier Check 🔎
         id: prettier
-        run: npx prettier . --check
+        run: tools/format/node_modules/.bin/prettier . --config tools/format/prettier.config.cjs --ignore-path tools/format/.prettierignore --check
       - name: Create diff 📝
         # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
         if: ${{ failure() }}
         run: |
-          npx prettier . --write
-          git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
+          tools/format/node_modules/.bin/prettier . --config tools/format/prettier.config.cjs --ignore-path tools/format/.prettierignore --write
+          git diff -- . ':(exclude)tools/format/package-lock.json' ':(exclude)tools/format/package.json' > diff.txt
           npm install -g diff2html-cli
           diff2html -i file -s side -F diff.html -- diff.txt
       - name: Upload html diff ⬆️

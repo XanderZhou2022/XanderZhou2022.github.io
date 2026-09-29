@@ -1,0 +1,287 @@
+[
+  {
+    "year": "2026",
+    "projects": [
+      {
+        "title": "AI-Simulated ICU Multi-Agent System",
+        "url": "/projects/icu-agent-system/",
+        "image": "/assets/img/projects/icu-agent-system.svg",
+        "alt": "ICU multi-agent system diagram",
+        "description": "Prototype ICU digital ward simulation with event-driven patient states, specialized agents, backend APIs, and frontend visualization.",
+        "meta": [
+          "BME Course Project",
+          "2026"
+        ],
+        "links": [
+          {
+            "label": "GitHub Repository",
+            "url": "https://github.com/XanderZhou2022/BME_1325_Group4_repo"
+          }
+        ],
+        "tags": [
+          "Multi-Agent Systems",
+          "FastAPI",
+          "React",
+          "Healthcare AI"
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2025",
+    "projects": [
+      {
+        "title": "Elasticsearch and Madison Interactive Kibana Map",
+        "url": "/projects/cs639-elasticsearch-map/",
+        "image": "/assets/img/projects/thumbs/cs639-elasticsearch-map-thumb.webp",
+        "alt": "Madison interactive Kibana map",
+        "description": "Indexed Madison geospatial, news, Wikipedia, and event data in Elasticsearch, answered search and aggregation questions, and visualized results through an interactive Kibana map.",
+        "meta": [
+          "CS639 Course Project",
+          "2025"
+        ],
+        "links": [
+          {
+            "label": "Project Details",
+            "url": "https://github.com/CS639-Data-Management-for-Data-Science/s25/blob/main/p3/README.md"
+          }
+        ],
+        "tags": [
+          "Elasticsearch",
+          "Kibana",
+          "GeoJSON",
+          "Search"
+        ]
+      },
+      {
+        "title": "ELT Data Pipeline with Airbyte, Snowflake, and dbt",
+        "url": "/projects/cs639-elt-pipeline/",
+        "image": "/assets/img/projects/thumbs/cs639-elt-pipeline-thumb.webp",
+        "alt": "Snowflake dbt transformation stage",
+        "description": "Built a modern ELT pipeline using Airbyte for extraction/loading, Snowflake for warehousing, and dbt for transformations across survey, stock, foreign exchange, and CSV trading datasets.",
+        "meta": [
+          "CS639 Course Project",
+          "2025"
+        ],
+        "links": [
+          {
+            "label": "Project Details",
+            "url": "https://github.com/CS639-Data-Management-for-Data-Science/s25/blob/main/p4/README.md"
+          }
+        ],
+        "tags": [
+          "Airbyte",
+          "Snowflake",
+          "dbt",
+          "ELT"
+        ]
+      },
+      {
+        "title": "Time Series Forecasting Kaggle Competition",
+        "url": "/projects/cs639-kaggle-forecasting/",
+        "image": "/assets/img/projects/thumbs/cs639-kaggle-forecasting-thumb.webp",
+        "alt": "Data science project lifecycle",
+        "description": "Built forecasting models for a CS639 Kaggle competition, exploring EDA, feature engineering, EMA/ARIMA baselines, and gradient boosted tree models. Ranked first on the competition leaderboard.",
+        "meta": [
+          "Kaggle Competition · First Place",
+          "2025"
+        ],
+        "links": [
+          {
+            "label": "Project Details",
+            "url": "https://github.com/CS639-Data-Management-for-Data-Science/s25/blob/main/p5/README.md"
+          }
+        ],
+        "tags": [
+          "Time Series",
+          "LightGBM",
+          "CatBoost",
+          "First Place"
+        ]
+      },
+      {
+        "title": "LLM Fine-Tuning and RAG Course Chatbot",
+        "url": "/projects/cs639-llm-rag/",
+        "image": "/assets/img/projects/thumbs/cs639-llm-rag-thumb.webp",
+        "alt": "LLM RAG pipeline flow chart",
+        "description": "Explored quantized LLM inference, LoRA fine-tuning on lecture transcripts, and a RAG exam-preparation chatbot using Elasticsearch, Haystack, HuggingFace, and Streamlit.",
+        "meta": [
+          "CS639 Course Project",
+          "2025"
+        ],
+        "links": [
+          {
+            "label": "Project Details",
+            "url": "https://github.com/CS639-Data-Management-for-Data-Science/s25/tree/main/p6"
+          }
+        ],
+        "tags": [
+          "LLM",
+          "LoRA",
+          "RAG",
+          "Streamlit"
+        ]
+      },
+      {
+        "title": "Dynamic Factor Rotation for Quantitative Investment",
+        "url": "/projects/quant-factor-rotation/",
+        "image": "/assets/img/projects/thumbs/quant-factor-rotation-thumb.webp",
+        "alt": "Quantitative factor rotation cumulative returns",
+        "description": "Quant workflow for SSE 50 factor construction, regime identification, time-series prediction, dynamic weighting, and backtesting.",
+        "meta": [
+          "Quantitative Finance Project",
+          "2025"
+        ],
+        "links": [
+          {
+            "label": "GitHub Repository",
+            "url": "https://github.com/XanderZhou2022/quant_investment_final_project"
+          }
+        ],
+        "tags": [
+          "Quant Finance",
+          "Factor Investing",
+          "LSTM",
+          "Backtesting"
+        ]
+      },
+      {
+        "title": "Predicting Citation Impact from Peer Review Data",
+        "url": "/projects/citation-impact/",
+        "image": "/assets/img/projects/thumbs/citation-impact-thumb.webp",
+        "alt": "Citation prediction model comparison",
+        "description": "PeerRead-based data analysis project studying whether review scores and metadata can predict future citation impact.",
+        "meta": [
+          "Data Analysis Project",
+          "2025"
+        ],
+        "links": [
+          {
+            "label": "GitHub Repository",
+            "url": "https://github.com/XanderZhou2022/ECE204_final"
+          }
+        ],
+        "tags": [
+          "Machine Learning",
+          "PeerRead",
+          "XGBoost",
+          "Scientometrics"
+        ]
+      },
+      {
+        "title": "BadgerCS Career Nexus",
+        "url": "/projects/badgercs-career-nexus/",
+        "image": "/assets/img/projects/thumbs/badgercs-career-nexus-thumb.webp",
+        "alt": "BadgerCS Career Nexus visual background",
+        "description": "Responsive web platform for UW-Madison CS students to browse jobs, view job details, use a forum, and prototype dashboards.",
+        "meta": [
+          "Web Development Project",
+          "Spring 2025"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/CS272-S25/p3"
+          },
+          {
+            "label": "Live Demo",
+            "url": "https://cs272-s25.github.io/p3"
+          }
+        ],
+        "tags": [
+          "Web Development",
+          "Bootstrap",
+          "JavaScript",
+          "UX"
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2024",
+    "projects": [
+      {
+        "title": "Predicting Weibo Reposts, Comments, and Likes",
+        "url": "/projects/weibo-engagement-prediction/",
+        "image": "/assets/img/projects/thumbs/weibo-engagement-prediction-thumb.webp",
+        "alt": "Weibo engagement prediction project pipeline",
+        "description": "Machine learning course project for predicting Sina Weibo engagement after publication, combining content, temporal, and user-profile features with Random Forest, XGBoost, SVM, RNN, and BERT experiments.",
+        "meta": [
+          "Machine Learning Course Project",
+          "2024"
+        ],
+        "links": [],
+        "tags": [
+          "Machine Learning",
+          "Social Media",
+          "Feature Engineering",
+          "Random Forest"
+        ]
+      },
+      {
+        "title": "Quadratic Programming Solver Benchmarking",
+        "url": "/projects/qp-solver-benchmarking/",
+        "image": "/assets/img/projects/thumbs/qp-solver-benchmarking-thumb.webp",
+        "alt": "Quadratic programming solver convergence plots",
+        "description": "Numerical optimization course project implementing and benchmarking QP solvers, including IRWA and ADAL, against open-source optimizers across speed, accuracy, constraint violation, and stability metrics.",
+        "meta": [
+          "Numerical Optimization Course Project",
+          "2024"
+        ],
+        "links": [],
+        "tags": [
+          "Optimization",
+          "Quadratic Programming",
+          "Benchmarking",
+          "Python"
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2023",
+    "projects": [
+      {
+        "title": "Named Entity Recognition for FinTech",
+        "url": "/projects/fintech-ner/",
+        "image": "/assets/img/projects/thumbs/fintech-ner-thumb.webp",
+        "alt": "FinTech named entity recognition confusion matrix",
+        "description": "Financial NER project using LLM-assisted annotation, HMM implementation, CRF comparison, and evaluation visualizations.",
+        "meta": [
+          "Group Leader",
+          "2023"
+        ],
+        "links": [
+          {
+            "label": "GitHub Repository",
+            "url": "https://github.com/XanderZhou2022/Named-entity-recognition-for-Fintech"
+          }
+        ],
+        "tags": [
+          "NLP",
+          "FinTech",
+          "HMM",
+          "CRF"
+        ]
+      },
+      {
+        "title": "Life Trajectory Classification Research",
+        "url": "/projects/life-trajectory/",
+        "image": "/assets/img/projects/thumbs/life-trajectory-thumb.webp",
+        "alt": "Life trajectory classification project figure",
+        "description": "Fine-grained classification of life trajectories from Wikipedia using large language models and syntactic graph fusion. Accepted as an oral presentation at ICSC 2026.",
+        "meta": [
+          "ICSC 2026 Oral",
+          "2023 – Present"
+        ],
+        "links": [],
+        "tags": [
+          "Research",
+          "LLM",
+          "Graph Fusion",
+          "ICSC 2026"
+        ]
+      }
+    ]
+  }
+]

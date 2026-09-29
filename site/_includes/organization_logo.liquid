@@ -1,0 +1,29 @@
+{% assign organization = null %}
+{% for candidate in site.data.organizations %}
+  {% if include.name contains candidate.match -%}
+    {%- assign organization = candidate -%}
+    {%- break -%}
+  {%- endif %}
+{% endfor %}
+<div class="experience-logo">
+  {% if organization %}
+    <img
+      class="organization-logo-light"
+      src="{{ organization.image | prepend: '/assets/img/organizations/' | relative_url }}"
+      alt="{{ organization.name }} logo"
+      width="96"
+      height="76"
+      loading="lazy"
+    >
+    <img
+      class="organization-logo-dark"
+      src="{{ organization.dark_image | default: organization.image | prepend: '/assets/img/organizations/' | relative_url }}"
+      alt="{{ organization.name }} logo"
+      width="56"
+      height="56"
+      loading="lazy"
+    >
+  {% else %}
+    <i class="{{ include.icon | default: 'fa-solid fa-building-columns' }}" aria-hidden="true"></i>
+  {% endif %}
+</div>

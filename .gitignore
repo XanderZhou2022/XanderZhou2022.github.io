@@ -1,13 +1,28 @@
-_site
-.bundle
-.sass-cache
-.jekyll-cache
+# Local builds, caches, and installed dependencies (at any depth)
+_site/
+.bundle/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-.DS_Store
-.ruby-version
-.tweet-cache
-Gemfile.lock
-assets/libs/
+.tweet-cache/
 node_modules/
-vendor
-.idea
+vendor/
+site/assets/libs/
+
+# Local-only tools, containers, editors, and machine settings
+/local/
+/.devcontainer/
+.ruby-version
+.DS_Store
+.idea/
+.vscode/
+*.log
+.env
+.env.*
+!.env.example
+
+# Temporary exports and formatter reports
+/tmp/
+/output/
+/diff.txt
+/diff.html

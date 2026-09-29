@@ -1,0 +1,153 @@
+{
+  "teaching":
+    [
+      {
+        "title": "Teaching Experience",
+        "items":
+          [
+            {
+              "title": "Software Carpentry Workshop · Helper",
+              "organization": "University of Wisconsin-Madison",
+              "description": "Helper for an in-person Software Carpentry workshop at UW-Madison, supporting learners in hands-on sessions on GitHub and plotting/programming in Python.",
+              "meta": ["Helper", "Orchard Room, Discovery Building"],
+              "date": "June 2025",
+              "links": [{ "url": "https://uw-madison-datascience.github.io/software-carpentry/", "label": "Curriculum" }],
+              "tags": ["Software Carpentry", "GitHub", "Python", "Workshop Helper"],
+              "icon": "fa-solid fa-chalkboard-user",
+            },
+            {
+              "title": "Intro to Deep Learning Workshop · Observer",
+              "organization": "University of Wisconsin-Madison",
+              "description": "Observer for the UW-Madison Data Science Hub hands-on Intro to Deep Learning workshop, supporting a code-along curriculum on neural networks, Keras, model training, advanced layers, transfer learning, and next steps for deep learning practice.",
+              "meta": ["Workshop Observer", "UW-Madison Data Science Institute"],
+              "date": "May 2025",
+              "links":
+                [
+                  { "url": "https://uw-madison-datascience.github.io/deep-learning-intro/", "label": "Curriculum" },
+                  { "url": "https://uw-madison-datascience.github.io/2025-05-19-uwmadison-DeepLearningKeras/", "label": "Workshop Page" },
+                ],
+              "tags": ["Deep Learning", "Keras", "Python", "Code-Along Workshop"],
+              "icon": "fa-solid fa-chalkboard-user",
+            },
+            {
+              "title": "CS150A Database · Head TA",
+              "organization": "ShanghaiTech University",
+              "description": "Head Teaching Assistant for CS150A Database at ShanghaiTech University, Fall 2025. The course introduces the fundamentals of database systems: the relational model, SQL, database design and normalization, indexing and query processing, and transaction management.",
+              "meta": ["Head TA", "ShanghaiTech University"],
+              "date": "September 2025 – January 2026",
+              "links": [{ "url": "mailto:yxzhou@comp.hkbu.edu.hk", "label": "Contact TA" }],
+              "tags": ["Database", "CS150A"],
+              "icon": "fa-solid fa-chalkboard-user",
+            },
+          ],
+      },
+    ],
+  "social_work":
+    [
+      {
+        "title": "Academic Service",
+        "items":
+          [
+            {
+              "title": "AAAI Conference on Artificial Intelligence (AAAI)",
+              "description": "Reviewer",
+              "date": "2027",
+              "icon": "fa-solid fa-pen-to-square",
+            },
+            { "title": "TAE Workshop @ NeurIPS", "description": "Reviewer", "date": "2026", "icon": "fa-solid fa-pen-to-square" },
+            { "title": "FinNLP Workshop @ EMNLP", "description": "Reviewer", "date": "2026", "icon": "fa-solid fa-pen-to-square" },
+            { "title": "ACL Rolling Review (ARR May)", "description": "Reviewer", "date": "2026", "icon": "fa-solid fa-pen-to-square" },
+            { "title": "NeurIPS", "description": "Reviewer", "date": "2026", "icon": "fa-solid fa-pen-to-square" },
+            { "title": "ICDM", "description": "Reviewer", "date": "2026", "icon": "fa-solid fa-pen-to-square" },
+          ],
+      },
+      {
+        "title": "Conference Volunteering",
+        "items":
+          [
+            {
+              "title": "Student Volunteer · WAIC 2024",
+              "organization": "",
+              "description": "Supported attendee coordination, registration operations, and venue guidance at the World Artificial Intelligence Conference.",
+              "meta": ["Shanghai, China"],
+              "date": "July 2024",
+              "links": [],
+              "tags": ["AI Conference", "Operations", "Volunteer Service"],
+              "icon": "fa-solid fa-hand-holding-heart",
+            },
+            {
+              "title": "Student Volunteer · IJCAI 2025",
+              "organization": "",
+              "description": "Supported session management, attendee guidance, and on-site logistics at the International Joint Conference on Artificial Intelligence.",
+              "meta": ["Guangzhou, China"],
+              "date": "August 2025",
+              "links": [],
+              "tags": ["AI Conference", "Session Support", "Logistics"],
+              "icon": "fa-solid fa-hand-holding-heart",
+            },
+            {
+              "title": "Student Volunteer · ACM ICAIF 2025",
+              "organization": "",
+              "description": "Supported poster sessions, attendee assistance, and conference logistics at the ACM International Conference on AI in Finance.",
+              "meta": ["Singapore"],
+              "date": "November 2025",
+              "links": [],
+              "tags": ["AI in Finance", "Poster Sessions", "Conference Service"],
+              "icon": "fa-solid fa-hand-holding-heart",
+            },
+          ],
+      },
+      {
+        "title": "Social Practice & Leadership",
+        "items":
+          [
+            {
+              "title": "Team Leader · Social Practice Program",
+              "organization": "ShanghaiTech University",
+              "description": "Led a 30-student team in a 10-day field research project at ShanghaiTech University and was awarded Outstanding Individual.",
+              "meta": ["ShanghaiTech University"],
+              "date": "July 2023",
+              "links": [],
+              "tags": ["Leadership", "Field Research", "Outstanding Individual"],
+              "icon": "fa-solid fa-hand-holding-heart",
+            },
+            {
+              "title": "Team Leader · Industry Practice Program",
+              "organization": "ShanghaiTech University",
+              "description": "Led a 30-person team conducting industry-focused research and was recognized as Outstanding Individual.",
+              "meta": ["ShanghaiTech University"],
+              "date": "August 2024",
+              "links": [],
+              "tags": ["Leadership", "Industry Research", "Outstanding Individual"],
+              "icon": "fa-solid fa-hand-holding-heart",
+            },
+            {
+              "title": "Wisconsin Experience Bus Trip 2025",
+              "organization": "University of Wisconsin-Madison",
+              "description": "Five-day UW-Madison leadership journey across Wisconsin, engaging with local communities, environmental education, cultural history, outdoor learning, values-based leadership, conservation, and civic reflection.",
+              "meta": ["Wisconsin, USA"],
+              "date": "May 2025",
+              "links": [{ "url": "/social_work/webt-2025/", "label": "Read more" }],
+              "tags": ["Leadership Journey", "Wisconsin Experience", "Community Engagement"],
+              "icon": "fa-solid fa-hand-holding-heart",
+            },
+          ],
+      },
+      {
+        "title": "Community Service",
+        "items":
+          [
+            {
+              "title": "Volunteer · Community Service Activity",
+              "organization": "",
+              "description": "Contributed to seasonal preparation at a public botanical garden and participated in community-based activities related to local agriculture and the global ginseng industry.",
+              "meta": ["Wausau, Wisconsin, USA"],
+              "date": "May 2025",
+              "links": [],
+              "tags": ["Community Service", "Botanical Garden", "Local Agriculture"],
+              "icon": "fa-solid fa-hand-holding-heart",
+            },
+          ],
+      },
+    ],
+}

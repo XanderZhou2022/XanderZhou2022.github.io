@@ -1,36 +1,63 @@
 # Yixi Zhou — Personal Academic Website
 
-Personal website of **Yixi (Xander) Zhou**, built with [Jekyll](https://jekyllrb.com/) and the [al-folio](https://github.com/alshedivat/al-folio) theme.
+Personal academic website: [xanderzhou2022.github.io](https://xanderzhou2022.github.io/).
 
-- **Site**: [https://xanderzhou2022.github.io/](https://xanderzhou2022.github.io/)
-- **Content**: About, CV, Publications, Projects (Life Trajectory), Teaching (CS150A Head TA), News
+## Repository layout
+
+- `site/`: all Jekyll source, including `_config.yml`, pages, layouts, data, plugins, styles, images, and public files.
+- `tools/`: build and preview scripts, CSS cleanup configuration, Python dependencies, and formatter dependencies/configuration.
+- `.github/workflows/`: GitHub Actions deployment and formatting checks.
+- `Gemfile` and `Gemfile.lock`: shared Ruby dependencies, retained at the root for Bundler and GitHub Actions caching. The lockfile is required for reproducible builds.
+- `local/` (ignored): machine-only Docker, editor/container, and helper configurations. These are not required for deployment.
+- `_site/` (ignored): generated website; GitHub Actions publishes this directory to the `gh-pages` branch.
+
+The root retains README, LICENSE, Git configuration, and Bundler manifests for standard tool discovery. Public files such as `robots.txt`, the favicon, and the Google verification file live in `site/` and are still published at the website root.
 
 ## Local development
 
 ```bash
 bundle install
-bundle exec jekyll serve
+bash tools/serve.sh
 ```
 
-Open [http://localhost:4000](http://localhost:4000).
-
-## Build
+Open [localhost:4000](http://localhost:4000). To build without serving:
 
 ```bash
-bundle exec jekyll build
+bash tools/build.sh
 ```
 
-Output is in `_site/`.
+Both scripts locate the repository themselves and support Jekyll options, for example:
 
-## Deploy
+```bash
+bash tools/build.sh --destination /tmp/website-preview
+bash tools/serve.sh --port 4001
+```
 
-Pushed to the `main` branch; [GitHub Actions](.github/workflows/deploy.yml) build and deploy to GitHub Pages.
+## Content locations
 
-## Theme
+- `site/_pages/`: About, CV, Publications, Projects, Social Work, Teaching, and detail pages.
+- `site/_bibliography/papers.bib`: papers, resource links, preview figures, and homepage selections.
+- `site/_data/project_showcase.yml`: project cards.
+- `site/_data/activity_lists.yml`: Social Work and Teaching.
+- `site/assets/json/resume.json`: CV content.
+- `site/_news/`: news updates.
+- `site/assets/img/`: personal photos, project and publication figures, and organization icons.
 
-Based on [al-folio](https://github.com/alshedivat/al-folio) (MIT). Customized: personal content, cyan theme, light/dark toggle only, Sass @use migration, tabler-icons font path.
+All published page and asset URLs are unchanged by the source directory layout.
+
+## Formatting
+
+```bash
+npm ci --prefix tools/format
+tools/format/node_modules/.bin/prettier . --config tools/format/prettier.config.cjs --ignore-path tools/format/.prettierignore --check
+```
+
+## Deployment
+
+The [deployment workflow](.github/workflows/deploy.yml) installs Ruby and Python dependencies, runs `tools/build.sh` in production mode, cleans unused CSS with `tools/purgecss.config.js`, and publishes `_site/` to `gh-pages`. GitHub Pages serves the generated site, not the source in `site/`.
+
+Local caches, installed dependencies, preview outputs, editor settings, and `local/` are ignored by Git. Shared build dependencies and configuration remain versioned because GitHub Actions needs them.
 
 ## License
 
-Content and customizations: © Yixi Zhou.  
-Theme: [al-folio](https://github.com/alshedivat/al-folio) (MIT).
+Content and customizations: © Yixi Zhou. Theme: [al-folio](https://github.com/alshedivat/al-folio) (MIT). Preserve LICENSE and third-party asset license notices.

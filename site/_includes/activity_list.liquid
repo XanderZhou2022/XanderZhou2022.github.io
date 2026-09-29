@@ -1,0 +1,62 @@
+{% for group in include.groups %}
+  <section class="experience-section activity-section">
+    <h2>{{ group.title }}</h2>
+    {% if group.title == 'Academic Service' %}
+      <ul class="academic-service-list">
+        {% for item in group.items %}
+          <li>
+            <span class="activity-venue">{{ item.title }}</span>, <span class="activity-role">{{ item.description }}</span>,
+            <span class="activity-year">{{ item.date }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      {% for item in group.items %}
+        <article class="experience-row experience-row-plain">
+          <div class="experience-body">
+            <h3>
+              {% if item.title contains ' · ' %}
+                {% assign title_parts = item.title | split: ' · ' %}
+                {% if group.title == 'Teaching Experience' %}
+                  {{ title_parts | first }} · <span class="activity-role">{{ title_parts | last }}</span>
+                {% else %}
+                  <span class="activity-role">{{ title_parts | first }}</span> · {{ title_parts | last }}
+                {% endif %}
+              {% else %}
+                {{ item.title }}
+              {% endif %}
+            </h3>
+            {% if item.organization != blank %}
+              <p class="experience-affiliation">{{ item.organization }}</p>
+            {% endif %}
+            <p>{{ item.description }}</p>
+            {% if item.meta.size > 0 %}
+              <p class="experience-meta">{{ item.meta | join: ' · ' }}</p>
+            {% endif %}
+            {% if item.tags.size > 0 %}
+              <p class="experience-tags">
+                {% for tag in item.tags -%}
+                  <span class="activity-tag">{{ tag }}</span>
+                  {%- unless forloop.last -%}
+                    <span class="activity-separator" aria-hidden="true"> · </span>
+                  {%- endunless -%}
+                {%- endfor %}
+              </p>
+            {% endif %}
+            {% if item.links.size > 0 %}
+              <div class="experience-links">
+                {% for link in item.links -%}
+                  <a href="{% if link.url contains '://' or link.url contains 'mailto:' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">
+                    {{- link.label }}
+                    <span aria-hidden="true">↗</span></a
+                  >
+                {%- endfor %}
+              </div>
+            {% endif %}
+          </div>
+          <div class="experience-date">{{ item.date }}</div>
+        </article>
+      {% endfor %}
+    {% endif %}
+  </section>
+{% endfor %}
