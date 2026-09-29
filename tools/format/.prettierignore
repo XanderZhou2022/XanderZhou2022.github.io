@@ -1,17 +1,22 @@
-**/*.map
-**/*.min.css
-**/*.min.js
-google*.html
-site/assets/css/main.scss
-site/assets/js/distillpub/template.v2.js
-site/assets/js/search/*.js
-site/_sass/font-awesome/*.scss
-site/_sass/tabler-icons/*.scss
-site/_scripts/*
+# Paths are relative to this ignore file (tools/format/), not the repository root.
+../../**/*.map
+../../**/*.min.css
+../../**/*.min.js
+../../site/google*.html
+../../site/assets/css/main.scss
+../../site/assets/js/distillpub/template.v2.js
+../../site/assets/js/search/*.js
+../../site/_sass/font-awesome/*.scss
+../../site/_sass/tabler-icons/*.scss
 
-_site/
-site/.jekyll-cache/
+# Jekyll front matter and Liquid are not plain JavaScript.
+../../site/_scripts/*
+
+# Generated output and local dependencies/configuration.
+../../_site/
+../../site/.jekyll-cache/
+../../node_modules/
 node_modules/
-vendor/
-local/
-.devcontainer/
+../../vendor/
+../../local/
+../../.devcontainer/

@@ -192,6 +192,21 @@
   color: var(--showcase-link);
 }
 
+.news-back-home {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 44px;
+    color: var(--showcase-link);
+    font-weight: 500;
+  }
+}
+
 html[data-theme="dark"] .home-profile .about-hero-link {
   &,
   &:hover,

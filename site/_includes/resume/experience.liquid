@@ -12,7 +12,9 @@
         {%- endif %}
       </h3>
       {% if include.kind == 'education' %}
-        <p class="experience-position">{% if item.studyType == 'Ph.D.' %}Ph.D{% else %}{{ item.studyType }}{% endif %} · {{ item.area }}</p>
+        <p class="experience-position">
+          {% if item.studyType == 'Ph.D.' %}Ph.D{% else %}{{ item.studyType }}{% endif %} · {{ item.area }}
+        </p>
       {% else %}
         <p class="experience-position">{{ item.position }}</p>
       {% endif %}

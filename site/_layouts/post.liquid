@@ -70,6 +70,12 @@ layout: default
     </div>
   </article>
 
+  {% if page.collection == 'news' %}
+    <nav class="news-back-home" aria-label="News navigation">
+      <a href="{{ '/' | relative_url }}">Back home <span aria-hidden="true">→</span></a>
+    </nav>
+  {% endif %}
+
   {% if page.citation %}
     {% include citation.liquid %}
   {% endif %}

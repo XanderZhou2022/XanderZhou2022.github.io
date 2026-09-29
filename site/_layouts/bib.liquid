@@ -115,7 +115,11 @@
       {% else %}
         {% assign fallback_venue = entry.abbr | default: entry.journal | default: entry.booktitle %}
         {% assign fallback_venue_lower = fallback_venue | downcase %}
-        <span{% unless fallback_venue_lower contains 'arxiv' %} class="publication-venue"{% endunless %}>
+        <span
+          {% unless fallback_venue_lower contains 'arxiv' %}
+            class="publication-venue"
+          {% endunless %}
+        >
           {{- entry.abbr | default: entry.journal | default: entry.booktitle -}}
           {%- if entry.year %} {{ entry.year }}{% endif -%}
         </span>
