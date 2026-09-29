@@ -27,3 +27,5 @@ Method overview figures rendered directly from the papers (Figure 2, without cap
 - `nighttime-main.png`: Figure 1 (Peru and Philippines scatterplots), page 5 of https://raw.githubusercontent.com/XanderZhou2022/Revisiting-Nighttime-Light-Features-in-Inclusive-Credit-Scoring/main/paper.pdf
 
 - `timeclaimbench-main.png`: TimeClaimBench pipeline figure rendered from the author-provided `pipeline.pdf` (page 1).
+
+- `jev-main.svg`: Figure 1 (workload and evaluation overview), from https://arxiv.org/html/2609.27678v1/contract_inference.svg.
