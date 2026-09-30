@@ -66,7 +66,9 @@ Content and customizations: © Yixi Zhou. Theme: [al-folio](https://github.com/a
 
 List cards, the profile photo, and organization logos use committed WebP images
 from `site/assets/img/optimized/`. Responsive `srcset` selects a suitable size;
-list images load lazily while the profile photo loads with high priority.
+all images load immediately while the profile photo loads with high priority.
+List thumbnails use 360/640 px variants capped at 20 KB each. Organization logos
+use 80 px WebP images capped at 3 KB, embedded in the HTML to avoid extra requests.
 Original figures remain available for detail pages.
 
 After adding or replacing a figure, run `python3 tools/optimize-images.py`
