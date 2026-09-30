@@ -1,6 +1,6 @@
 <img
-  class="resource-icon resource-icon-{{ include.name }}"
-  src="{{ include.name | prepend: '/assets/img/link-icons/' | append: '.svg' | relative_url }}"
+  class="{{ include.class | default: 'resource-icon' }} resource-icon-{{ include.name }}"
+  src="{{ site.data.inline_icons[include.name] }}"
   width="20"
   height="20"
   alt=""

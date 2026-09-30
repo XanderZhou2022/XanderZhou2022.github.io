@@ -21,9 +21,9 @@ nav_order: 3
             <p class="showcase-description">{{ project.description }}</p>
             <div class="showcase-tags">{% for tag in project.tags %}<span>{{ tag }}</span>{% endfor %}</div>
             <div class="showcase-links">
-              <a href="{{ project.url | relative_url }}"><img class="resource-icon resource-icon-project-page" src="{{ '/assets/img/link-icons/project-page.svg' | relative_url }}" width="20" height="20" alt="" aria-hidden="true"> Project</a>
+              <a href="{{ project.url | relative_url }}">{% include resource_icon.liquid name="project-page" %} Project</a>
               {% for link in project.links %}
-                <a href="{{ link.url }}">{% if link.url contains 'github.com' %}<img class="resource-icon resource-icon-github" src="{{ '/assets/img/link-icons/github.svg' | relative_url }}" width="20" height="20" alt="" aria-hidden="true">{% else %}<img class="resource-icon resource-icon-project-page" src="{{ '/assets/img/link-icons/project-page.svg' | relative_url }}" width="20" height="20" alt="" aria-hidden="true">{% endif %} {{ link.label }}</a>
+                <a href="{{ link.url }}">{% if link.url contains 'github.com' %}{% include resource_icon.liquid name="github" %}{% else %}{% include resource_icon.liquid name="project-page" %}{% endif %} {{ link.label }}</a>
               {% endfor %}
             </div>
           </div>

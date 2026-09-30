@@ -76,3 +76,7 @@ After adding or replacing a figure, run `python3 tools/optimize-images.py`
 `site/_data/optimized_images.json`. Commit the generated images and manifest.
 The site falls back to the original when a preview has not yet been generated;
 GitHub Actions does not need the image-generation dependencies.
+
+Small social and resource icons are embedded using `site/_data/inline_icons.json`.
+After changing `site/assets/img/link-icons/`, run `python3 tools/embed-icons.py`
+(requires Pillow) and format the generated manifest.
