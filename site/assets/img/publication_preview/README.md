@@ -29,3 +29,5 @@ Method overview figures rendered directly from the papers (Figure 2, without cap
 - `timeclaimbench-main.png`: TimeClaimBench pipeline figure rendered from the author-provided `pipeline.pdf` (page 1).
 
 - `jev-main.svg`: Figure 1 (workload and evaluation overview), from https://arxiv.org/html/2609.27678v1/contract_inference.svg.
+
+- `findecrowd-main.png`: Figure 2 (FinDeCrowd diagnosis and reranking overview), from https://arxiv.org/html/2609.35782v1/x2.png.
