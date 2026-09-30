@@ -13,7 +13,7 @@ nav_order: 3
       {% for project in group.projects %}
         <article class="showcase-card">
           <div class="showcase-media">
-            {% include optimized_image.liquid path=project.image alt=project.alt %}
+            {% include optimized_image.liquid loading="eager" path=project.image alt=project.alt %}
           </div>
           <div class="showcase-content">
             <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>

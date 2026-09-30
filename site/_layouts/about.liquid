@@ -66,7 +66,7 @@ layout: default
             {% assign profile_image_class = 'img-fluid about-hero-img' %}
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) 240px, 45vw{% endcapture %}
-          {% include optimized_image.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.header_title %}
+          {% include optimized_image.liquid loading="eager" priority="high" path=profile_image_path class=profile_image_class sizes=sizes alt=page.header_title %}
         </div>
       {% endif %}
     </div>

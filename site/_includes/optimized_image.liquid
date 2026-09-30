@@ -14,9 +14,9 @@
     class="{{ include.class }}"
   {% endif %}
   alt="{{ include.alt | escape }}"
-  loading="{{ include.loading | default: 'lazy' }}"
-  {% if include.loading == 'eager' %}
-    fetchpriority="high"
+  loading="{{ include.loading | default: 'eager' }}"
+  {% if include.priority %}
+    fetchpriority="{{ include.priority }}"
   {% endif %}
   decoding="async"
 >

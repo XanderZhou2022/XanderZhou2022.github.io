@@ -10,7 +10,7 @@
     {%- endunless %}
     <div class="research-media">
       {% capture preview_alt %}Overview of {{ entry.title | strip_html }}{% endcapture %}
-      {% include optimized_image.liquid path=preview_path alt=preview_alt %}
+      {% include optimized_image.liquid loading="eager" path=preview_path alt=preview_alt %}
     </div>
   {% endif %}
   <div id="{{ entry.key }}" class="research-content">
