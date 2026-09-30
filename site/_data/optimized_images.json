@@ -1,0 +1,212 @@
+{
+  "/assets/img/publication_preview/event-type-graphs.png": {
+    "src": "/assets/img/optimized/publication_preview-event-type-graphs-480.webp",
+    "srcset": "/assets/img/optimized/publication_preview-event-type-graphs-480.webp 480w, /assets/img/optimized/publication_preview-event-type-graphs-960.webp 960w",
+    "width": 2200,
+    "height": 1331
+  },
+  "/assets/img/publication_preview/prism.png": {
+    "src": "/assets/img/optimized/publication_preview-prism-480.webp",
+    "srcset": "/assets/img/optimized/publication_preview-prism-480.webp 480w, /assets/img/optimized/publication_preview-prism-960.webp 960w",
+    "width": 2600,
+    "height": 1326
+  },
+  "/assets/img/publication_preview/timeclaimbench-main.png": {
+    "src": "/assets/img/optimized/publication_preview-timeclaimbench-main-480.webp",
+    "srcset": "/assets/img/optimized/publication_preview-timeclaimbench-main-480.webp 480w, /assets/img/optimized/publication_preview-timeclaimbench-main-960.webp 960w",
+    "width": 1404,
+    "height": 712
+  },
+  "/assets/img/publication_preview/findecrowd-main.png": {
+    "src": "/assets/img/optimized/publication_preview-findecrowd-main-480.webp",
+    "srcset": "/assets/img/optimized/publication_preview-findecrowd-main-480.webp 480w, /assets/img/optimized/publication_preview-findecrowd-main-960.webp 960w",
+    "width": 1163,
+    "height": 647
+  },
+  "/assets/img/publication_preview/jev-main.svg": {
+    "src": "/assets/img/optimized/publication_preview-jev-main-480.webp",
+    "srcset": "/assets/img/optimized/publication_preview-jev-main-480.webp 480w, /assets/img/optimized/publication_preview-jev-main-960.webp 960w",
+    "width": 960,
+    "height": 541
+  },
+  "/assets/img/publication_preview/historical-main.png": {
+    "src": "/assets/img/optimized/publication_preview-historical-main-480.webp",
+    "srcset": "/assets/img/optimized/publication_preview-historical-main-480.webp 480w, /assets/img/optimized/publication_preview-historical-main-960.webp 960w",
+    "width": 1518,
+    "height": 864
+  },
+  "/assets/img/publication_preview/learninglake-main.png": {
+    "src": "/assets/img/optimized/publication_preview-learninglake-main-480.webp",
+    "srcset": "/assets/img/optimized/publication_preview-learninglake-main-480.webp 480w, /assets/img/optimized/publication_preview-learninglake-main-960.webp 960w",
+    "width": 1518,
+    "height": 852
+  },
+  "/assets/img/publication_preview/finreporting.svg": {
+    "src": "/assets/img/optimized/publication_preview-finreporting-480.webp",
+    "srcset": "/assets/img/optimized/publication_preview-finreporting-480.webp 480w, /assets/img/optimized/publication_preview-finreporting-960.webp 960w",
+    "width": 960,
+    "height": 571
+  },
+  "/assets/img/publication_preview/sqlstructeval-main.png": {
+    "src": "/assets/img/optimized/publication_preview-sqlstructeval-main-480.webp",
+    "srcset": "/assets/img/optimized/publication_preview-sqlstructeval-main-480.webp 480w, /assets/img/optimized/publication_preview-sqlstructeval-main-960.webp 960w",
+    "width": 1374,
+    "height": 720
+  },
+  "/assets/img/publication_preview/fincards.svg": {
+    "src": "/assets/img/optimized/publication_preview-fincards-480.webp",
+    "srcset": "/assets/img/optimized/publication_preview-fincards-480.webp 480w, /assets/img/optimized/publication_preview-fincards-960.webp 960w",
+    "width": 960,
+    "height": 447
+  },
+  "/assets/img/publication_preview/../projects/life-trajectory.png": {
+    "src": "/assets/img/optimized/projects-life-trajectory-480.webp",
+    "srcset": "/assets/img/optimized/projects-life-trajectory-480.webp 480w, /assets/img/optimized/projects-life-trajectory-960.webp 602w",
+    "width": 602,
+    "height": 284
+  },
+  "/assets/img/publication_preview/human-aligned-main.png": {
+    "src": "/assets/img/optimized/publication_preview-human-aligned-main-480.webp",
+    "srcset": "/assets/img/optimized/publication_preview-human-aligned-main-480.webp 480w, /assets/img/optimized/publication_preview-human-aligned-main-960.webp 960w",
+    "width": 1260,
+    "height": 461
+  },
+  "/assets/img/publication_preview/nighttime-main.png": {
+    "src": "/assets/img/optimized/publication_preview-nighttime-main-480.webp",
+    "srcset": "/assets/img/optimized/publication_preview-nighttime-main-480.webp 480w, /assets/img/optimized/publication_preview-nighttime-main-960.webp 960w",
+    "width": 1260,
+    "height": 416
+  },
+  "/assets/img/projects/icu-agent-system.svg": {
+    "src": "/assets/img/optimized/projects-icu-agent-system-480.webp",
+    "srcset": "/assets/img/optimized/projects-icu-agent-system-480.webp 480w, /assets/img/optimized/projects-icu-agent-system-960.webp 960w",
+    "width": 960,
+    "height": 576
+  },
+  "/assets/img/projects/thumbs/cs639-elasticsearch-map-thumb.webp": {
+    "src": "/assets/img/optimized/projects-thumbs-cs639-elasticsearch-map-thumb-480.webp",
+    "srcset": "/assets/img/optimized/projects-thumbs-cs639-elasticsearch-map-thumb-480.webp 480w, /assets/img/optimized/projects-thumbs-cs639-elasticsearch-map-thumb-960.webp 640w",
+    "width": 640,
+    "height": 342
+  },
+  "/assets/img/projects/thumbs/cs639-elt-pipeline-thumb.webp": {
+    "src": "/assets/img/optimized/projects-thumbs-cs639-elt-pipeline-thumb-480.webp",
+    "srcset": "/assets/img/optimized/projects-thumbs-cs639-elt-pipeline-thumb-480.webp 480w, /assets/img/optimized/projects-thumbs-cs639-elt-pipeline-thumb-960.webp 640w",
+    "width": 640,
+    "height": 367
+  },
+  "/assets/img/projects/thumbs/cs639-kaggle-forecasting-thumb.webp": {
+    "src": "/assets/img/optimized/projects-thumbs-cs639-kaggle-forecasting-thumb-480.webp",
+    "srcset": "/assets/img/optimized/projects-thumbs-cs639-kaggle-forecasting-thumb-480.webp 480w, /assets/img/optimized/projects-thumbs-cs639-kaggle-forecasting-thumb-960.webp 640w",
+    "width": 640,
+    "height": 628
+  },
+  "/assets/img/projects/thumbs/cs639-llm-rag-thumb.webp": {
+    "src": "/assets/img/optimized/projects-thumbs-cs639-llm-rag-thumb-480.webp",
+    "srcset": "/assets/img/optimized/projects-thumbs-cs639-llm-rag-thumb-480.webp 480w, /assets/img/optimized/projects-thumbs-cs639-llm-rag-thumb-960.webp 640w",
+    "width": 640,
+    "height": 699
+  },
+  "/assets/img/projects/thumbs/quant-factor-rotation-thumb.webp": {
+    "src": "/assets/img/optimized/projects-thumbs-quant-factor-rotation-thumb-480.webp",
+    "srcset": "/assets/img/optimized/projects-thumbs-quant-factor-rotation-thumb-480.webp 480w, /assets/img/optimized/projects-thumbs-quant-factor-rotation-thumb-960.webp 640w",
+    "width": 640,
+    "height": 382
+  },
+  "/assets/img/projects/thumbs/citation-impact-thumb.webp": {
+    "src": "/assets/img/optimized/projects-thumbs-citation-impact-thumb-480.webp",
+    "srcset": "/assets/img/optimized/projects-thumbs-citation-impact-thumb-480.webp 480w, /assets/img/optimized/projects-thumbs-citation-impact-thumb-960.webp 640w",
+    "width": 640,
+    "height": 425
+  },
+  "/assets/img/projects/thumbs/badgercs-career-nexus-thumb.webp": {
+    "src": "/assets/img/optimized/projects-thumbs-badgercs-career-nexus-thumb-480.webp",
+    "srcset": "/assets/img/optimized/projects-thumbs-badgercs-career-nexus-thumb-480.webp 480w, /assets/img/optimized/projects-thumbs-badgercs-career-nexus-thumb-960.webp 640w",
+    "width": 640,
+    "height": 427
+  },
+  "/assets/img/projects/thumbs/weibo-engagement-prediction-thumb.webp": {
+    "src": "/assets/img/optimized/projects-thumbs-weibo-engagement-prediction-thumb-480.webp",
+    "srcset": "/assets/img/optimized/projects-thumbs-weibo-engagement-prediction-thumb-480.webp 480w, /assets/img/optimized/projects-thumbs-weibo-engagement-prediction-thumb-960.webp 640w",
+    "width": 640,
+    "height": 299
+  },
+  "/assets/img/projects/thumbs/qp-solver-benchmarking-thumb.webp": {
+    "src": "/assets/img/optimized/projects-thumbs-qp-solver-benchmarking-thumb-480.webp",
+    "srcset": "/assets/img/optimized/projects-thumbs-qp-solver-benchmarking-thumb-480.webp 480w, /assets/img/optimized/projects-thumbs-qp-solver-benchmarking-thumb-960.webp 640w",
+    "width": 640,
+    "height": 426
+  },
+  "/assets/img/projects/thumbs/fintech-ner-thumb.webp": {
+    "src": "/assets/img/optimized/projects-thumbs-fintech-ner-thumb-480.webp",
+    "srcset": "/assets/img/optimized/projects-thumbs-fintech-ner-thumb-480.webp 480w, /assets/img/optimized/projects-thumbs-fintech-ner-thumb-960.webp 640w",
+    "width": 640,
+    "height": 534
+  },
+  "/assets/img/projects/thumbs/life-trajectory-thumb.webp": {
+    "src": "/assets/img/optimized/projects-thumbs-life-trajectory-thumb-480.webp",
+    "srcset": "/assets/img/optimized/projects-thumbs-life-trajectory-thumb-480.webp 480w, /assets/img/optimized/projects-thumbs-life-trajectory-thumb-960.webp 640w",
+    "width": 640,
+    "height": 302
+  },
+  "/assets/img/prof_pic.jpg": {
+    "src": "/assets/img/optimized/prof_pic-240.webp",
+    "srcset": "/assets/img/optimized/prof_pic-240.webp 240w, /assets/img/optimized/prof_pic-480.webp 480w",
+    "width": 1280,
+    "height": 1280
+  },
+  "/assets/img/organizations/hkbu-mark.svg": {
+    "src": "/assets/img/optimized/organizations-hkbu-mark-112.webp",
+    "srcset": "/assets/img/optimized/organizations-hkbu-mark-112.webp 112w",
+    "width": 112,
+    "height": 112
+  },
+  "/assets/img/organizations/hkbu-mark-dark.svg": {
+    "src": "/assets/img/optimized/organizations-hkbu-mark-dark-112.webp",
+    "srcset": "/assets/img/optimized/organizations-hkbu-mark-dark-112.webp 112w",
+    "width": 112,
+    "height": 112
+  },
+  "/assets/img/organizations/wisc-mark.svg": {
+    "src": "/assets/img/optimized/organizations-wisc-mark-112.webp",
+    "srcset": "/assets/img/optimized/organizations-wisc-mark-112.webp 112w",
+    "width": 112,
+    "height": 175
+  },
+  "/assets/img/organizations/wisc-mark-dark.svg": {
+    "src": "/assets/img/optimized/organizations-wisc-mark-dark-112.webp",
+    "srcset": "/assets/img/optimized/organizations-wisc-mark-dark-112.webp 112w",
+    "width": 112,
+    "height": 174
+  },
+  "/assets/img/organizations/shanghaitech-mark.svg": {
+    "src": "/assets/img/optimized/organizations-shanghaitech-mark-112.webp",
+    "srcset": "/assets/img/optimized/organizations-shanghaitech-mark-112.webp 112w",
+    "width": 112,
+    "height": 112
+  },
+  "/assets/img/organizations/shanghaitech-mark-dark.svg": {
+    "src": "/assets/img/optimized/organizations-shanghaitech-mark-dark-112.webp",
+    "srcset": "/assets/img/optimized/organizations-shanghaitech-mark-dark-112.webp 112w",
+    "width": 112,
+    "height": 112
+  },
+  "/assets/img/organizations/utokyo.png": {
+    "src": "/assets/img/optimized/organizations-utokyo-112.webp",
+    "srcset": "/assets/img/optimized/organizations-utokyo-112.webp 112w",
+    "width": 180,
+    "height": 180
+  },
+  "/assets/img/organizations/mbzuai-mark.svg": {
+    "src": "/assets/img/optimized/organizations-mbzuai-mark-112.webp",
+    "srcset": "/assets/img/optimized/organizations-mbzuai-mark-112.webp 112w",
+    "width": 112,
+    "height": 95
+  },
+  "/assets/img/organizations/mbzuai-mark-dark.svg": {
+    "src": "/assets/img/optimized/organizations-mbzuai-mark-dark-112.webp",
+    "srcset": "/assets/img/optimized/organizations-mbzuai-mark-dark-112.webp 112w",
+    "width": 112,
+    "height": 95
+  }
+}

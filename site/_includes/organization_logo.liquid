@@ -7,22 +7,11 @@
 {% endfor %}
 <div class="experience-logo">
   {% if organization %}
-    <img
-      class="organization-logo-light"
-      src="{{ organization.image | prepend: '/assets/img/organizations/' | relative_url }}"
-      alt="{{ organization.name }} logo"
-      width="96"
-      height="76"
-      loading="lazy"
-    >
-    <img
-      class="organization-logo-dark"
-      src="{{ organization.dark_image | default: organization.image | prepend: '/assets/img/organizations/' | relative_url }}"
-      alt="{{ organization.name }} logo"
-      width="56"
-      height="56"
-      loading="lazy"
-    >
+    {% assign light_path = organization.image | prepend: '/assets/img/organizations/' %}
+    {% assign dark_path = organization.dark_image | default: organization.image | prepend: '/assets/img/organizations/' %}
+    {% capture logo_alt %}{{ organization.name }} logo{% endcapture %}
+    {% include optimized_image.liquid path=light_path class="organization-logo-light" sizes="56px" alt=logo_alt %}
+    {% include optimized_image.liquid path=dark_path class="organization-logo-dark" sizes="56px" alt=logo_alt %}
   {% else %}
     <i class="{{ include.icon | default: 'fa-solid fa-building-columns' }}" aria-hidden="true"></i>
   {% endif %}

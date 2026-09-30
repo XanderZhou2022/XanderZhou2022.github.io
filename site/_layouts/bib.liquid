@@ -6,17 +6,11 @@
   {% if has_preview %}
     {% assign preview_path = entry.preview %}
     {% unless entry.preview contains '://' -%}
-      {%- assign preview_path = entry.preview | prepend: '/assets/img/publication_preview/' | relative_url -%}
+      {%- assign preview_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
     {%- endunless %}
     <div class="research-media">
-      <img
-        src="{{ preview_path }}"
-        alt="Overview of {{ entry.title | strip_html | escape }}"
-        loading="lazy"
-        decoding="async"
-        width="640"
-        height="400"
-      >
+      {% capture preview_alt %}Overview of {{ entry.title | strip_html }}{% endcapture %}
+      {% include optimized_image.liquid path=preview_path alt=preview_alt %}
     </div>
   {% endif %}
   <div id="{{ entry.key }}" class="research-content">

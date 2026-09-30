@@ -59,17 +59,14 @@ layout: default
       </div>
       {% if page.profile and page.profile.image %}
         <div class="about-hero-photo">
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% assign profile_image_path = page.profile.image | prepend: '/assets/img/' %}
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid rounded-circle' %}
           {% else %}
             {% assign profile_image_class = 'img-fluid about-hero-img' %}
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) 240px, 45vw{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.header_title
-            cache_bust=true
-          %}
+          {% include optimized_image.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.header_title %}
         </div>
       {% endif %}
     </div>

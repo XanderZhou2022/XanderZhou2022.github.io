@@ -61,3 +61,16 @@ Local caches, installed dependencies, preview outputs, editor settings, and `loc
 ## License
 
 Content and customizations: © Yixi Zhou. Theme: [al-folio](https://github.com/alshedivat/al-folio) (MIT). Preserve LICENSE and third-party asset license notices.
+
+## Image previews
+
+List cards, the profile photo, and organization logos use committed WebP images
+from `site/assets/img/optimized/`. Responsive `srcset` selects a suitable size;
+list images load lazily while the profile photo loads with high priority.
+Original figures remain available for detail pages.
+
+After adding or replacing a figure, run `python3 tools/optimize-images.py`
+(requires Pillow, PyYAML, and `rsvg-convert`), then format
+`site/_data/optimized_images.json`. Commit the generated images and manifest.
+The site falls back to the original when a preview has not yet been generated;
+GitHub Actions does not need the image-generation dependencies.
