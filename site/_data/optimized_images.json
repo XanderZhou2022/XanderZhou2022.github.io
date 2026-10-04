@@ -223,5 +223,11 @@
     "srcset": "/assets/img/optimized/publication_preview-evigraph-main-360.webp 360w, /assets/img/optimized/publication_preview-evigraph-main-640.webp 640w",
     "width": 640,
     "height": 149
+  },
+  "/assets/img/publication_preview/graphecho-main.svg": {
+    "src": "/assets/img/optimized/publication_preview-graphecho-main-360.webp",
+    "srcset": "/assets/img/optimized/publication_preview-graphecho-main-360.webp 360w, /assets/img/optimized/publication_preview-graphecho-main-640.webp 640w",
+    "width": 640,
+    "height": 176
   }
 }

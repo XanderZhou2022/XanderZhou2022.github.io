@@ -15,6 +15,7 @@ nav_order: 2
 <div class="publications">
   {% include author_legend.liquid %}
 
-{% bibliography %}
+{% capture publication_list %}{% bibliography %}{% endcapture %}
+{{ publication_list | published_first }}
 
 </div>
