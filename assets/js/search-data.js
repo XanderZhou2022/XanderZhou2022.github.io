@@ -89,6 +89,11 @@ ninja.data = [{id: "nav-about",
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-09-08-sqlstructeval-aacl-findings/";
+            },},{id: "news-accessroute-wins-gold-prize-at-hack-for-sdgs-2026",
+          title: '🏆 AccessRoute Wins Gold Prize at Hack for SDGs 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-10-24-accessroute-gold-prize/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
