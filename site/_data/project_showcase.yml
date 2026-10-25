@@ -4,6 +4,21 @@
     "projects":
       [
         {
+          "title": "AccessRoute HK: Accessible Mobility in Hong Kong",
+          "url": "/projects/accessroute/",
+          "image": "/assets/img/projects/accessroute-cover.svg",
+          "alt": "AccessRoute journey overview and map navigation interfaces",
+          "description": "Accessible first- and last-mile navigation for Hong Kong, combining floor-level maps, mobility-aware routing, visual localization, obstacle reporting, and Cantonese guidance. Finalist and Gold Prize (Winner) in Track 1: Green Transport and Smart Mobility.",
+          "meta": ["Hack for SDGs 2026 · Gold Prize (Winner)", "October 2026"],
+          "links":
+            [
+              { "label": "Project Website", "url": "https://xanderzhou2022.github.io/AccessRoute/" },
+              { "label": "Live Demo", "url": "https://xanderzhou2022.github.io/AccessRoute_small_demo/showcase" },
+              { "label": "GitHub", "url": "https://github.com/XanderZhou2022/AccessRoute_small_demo" },
+            ],
+          "tags": ["Accessible Navigation", "Generative AI", "Smart Mobility"],
+        },
+        {
           "title": "AI-Simulated ICU Multi-Agent System",
           "url": "/projects/icu-agent-system/",
           "image": "/assets/img/projects/icu-agent-system.svg",

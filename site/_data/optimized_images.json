@@ -77,6 +77,12 @@
     "width": 1260,
     "height": 416
   },
+  "/assets/img/projects/accessroute-cover.svg": {
+    "src": "/assets/img/optimized/projects-accessroute-cover-360.webp",
+    "srcset": "/assets/img/optimized/projects-accessroute-cover-360.webp 360w, /assets/img/optimized/projects-accessroute-cover-640.webp 640w",
+    "width": 640,
+    "height": 480
+  },
   "/assets/img/projects/icu-agent-system.svg": {
     "src": "/assets/img/optimized/projects-icu-agent-system-360.webp",
     "srcset": "/assets/img/optimized/projects-icu-agent-system-360.webp 360w, /assets/img/optimized/projects-icu-agent-system-640.webp 640w",

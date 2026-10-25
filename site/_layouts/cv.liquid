@@ -21,7 +21,13 @@ layout: default
         <div class="experience-row experience-row-plain">
           <div class="experience-body">
             <h3>{{ item.title }}</h3>
-            <p>{{ item.awarder }} · {{ item.summary }}</p>
+            <p>{{ item.awarder }}</p>
+            {% if item.summary %}
+              <p>{{ item.summary }}</p>
+            {% endif %}
+            {% if item.project %}
+              <p>{{ item.project }}</p>
+            {% endif %}
           </div>
           <div class="experience-date">{{ item.date | date: '%Y' }}</div>
         </div>
