@@ -8,7 +8,7 @@ nav: false
 
 ## AI-Simulated ICU Multi-Agent System
 
-<img src="/assets/img/projects/icu-agent-system.svg" alt="ICU multi-agent system diagram" class="img-fluid rounded z-depth-1 mb-4">
+<img src="{{ '/assets/img/projects/icu-agent-system-cover.webp' | relative_url }}" alt="Illustration of an ICU digital ward with patient monitoring and connected specialist AI agents" class="img-fluid rounded z-depth-1 mb-4" width="1536" height="1024">
 
 This course project built a prototype ICU digital ward simulation system focused on high-frequency patient-state changes, clinical risk alerts, and multi-agent workflow support.
 

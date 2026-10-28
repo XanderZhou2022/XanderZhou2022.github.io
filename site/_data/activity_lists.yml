@@ -49,6 +49,13 @@
         "items":
           [
             {
+              "title": "ACM The Web Conference (WWW)",
+              "description": "Reviewer",
+              "date": "2027",
+              "url": "https://openreview.net/group?id=ACM.org/TheWebConf/2027/Conference_Long_Papers/Reviewers",
+              "icon": "fa-solid fa-pen-to-square",
+            },
+            {
               "title": "AAAI Conference on Artificial Intelligence (AAAI)",
               "description": "Reviewer",
               "date": "2027",
@@ -60,6 +67,7 @@
               "date": "2027",
               "icon": "fa-solid fa-pen-to-square",
             },
+            { "title": "GlobalSouthAI Workshop @ NeurIPS", "description": "Reviewer", "date": "2026", "icon": "fa-solid fa-pen-to-square" },
             { "title": "TAE Workshop @ NeurIPS", "description": "Reviewer", "date": "2026", "icon": "fa-solid fa-pen-to-square" },
             { "title": "FinNLP Workshop @ EMNLP", "description": "Reviewer", "date": "2026", "icon": "fa-solid fa-pen-to-square" },
             {

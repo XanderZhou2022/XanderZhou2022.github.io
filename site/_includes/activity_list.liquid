@@ -5,7 +5,12 @@
       <ul class="academic-service-list">
         {% for item in group.items %}
           <li>
-            <span class="activity-venue">{{ item.title }}</span>, <span class="activity-role">{{ item.description }}</span>,
+            {% if item.url %}
+              <a class="activity-venue" href="{{ item.url | escape }}">{{ item.title }}</a>,
+            {% else %}
+              <span class="activity-venue">{{ item.title }}</span>,
+            {% endif %}
+            <span class="activity-role">{{ item.description }}</span>,
             <span class="activity-year">{{ item.date }}</span>
           </li>
         {% endfor %}
