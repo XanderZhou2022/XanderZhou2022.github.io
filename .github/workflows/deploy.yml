@@ -24,15 +24,15 @@ permissions:
 
 jobs:
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    # Keep the build OS stable when GitHub migrates ubuntu-latest.
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v7
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
+          ruby-version: "3.3" # Track the latest patch release in the 3.3 series.
           bundler-cache: true
       - name: Setup Python 🐍
         uses: actions/setup-python@v7
