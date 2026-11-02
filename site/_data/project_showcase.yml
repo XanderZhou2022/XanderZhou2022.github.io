@@ -4,6 +4,21 @@
     "projects":
       [
         {
+          "title": "Knowledge-Guided Data Cleaning",
+          "url": "/projects/knowledge-guided-data-cleaning/",
+          "image": "/assets/img/projects/knowledge-guided-data-cleaning.webp",
+          "alt": "Diagram showing trusted knowledge guiding the repair of a conflicting ZIP and city record",
+          "description": "Research survey connecting knowledge acquisition, repair selection, reliability, and intelligent data preparation across 30 studies. Includes an interactive literature map and survey paper.",
+          "meta": ["Research Survey", "2026"],
+          "links":
+            [
+              { "label": "Project Website", "url": "https://xanderzhou2022.github.io/Knowledge-Guided-Data-Cleaning/" },
+              { "label": "Paper", "url": "https://xanderzhou2022.github.io/Knowledge-Guided-Data-Cleaning/paper.pdf" },
+              { "label": "GitHub", "url": "https://github.com/XanderZhou2022/Knowledge-Guided-Data-Cleaning" },
+            ],
+          "tags": ["Data Cleaning", "Knowledge Acquisition", "Data Preparation", "Survey"],
+        },
+        {
           "title": "AccessRoute HK: Accessible Mobility in Hong Kong",
           "url": "/projects/accessroute/",
           "image": "/assets/img/projects/accessroute-cover.svg",

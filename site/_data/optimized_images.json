@@ -77,6 +77,12 @@
     "width": 1260,
     "height": 416
   },
+  "/assets/img/projects/knowledge-guided-data-cleaning.webp": {
+    "src": "/assets/img/optimized/projects-knowledge-guided-data-cleaning-360.webp",
+    "srcset": "/assets/img/optimized/projects-knowledge-guided-data-cleaning-360.webp 360w, /assets/img/optimized/projects-knowledge-guided-data-cleaning-640.webp 640w",
+    "width": 1536,
+    "height": 1024
+  },
   "/assets/img/projects/accessroute-cover.svg": {
     "src": "/assets/img/optimized/projects-accessroute-cover-360.webp",
     "srcset": "/assets/img/optimized/projects-accessroute-cover-360.webp 360w, /assets/img/optimized/projects-accessroute-cover-640.webp 640w",
