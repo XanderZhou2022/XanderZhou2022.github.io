@@ -4,6 +4,20 @@
     "projects":
       [
         {
+          "title": "Why Does TikTok Know What You Like?",
+          "url": "/projects/tiktok-recommendations/",
+          "image": "/assets/img/projects/tiktok-recommendations-cover.svg",
+          "alt": "Interactive recommendation lesson with two illustrated video feeds and a signals-to-feedback learning journey",
+          "description": "Interactive 15-minute lesson explaining recommendation systems through user signals, content clues, video ranking, and feedback. Includes worked examples, pair activities, speaker notes, and a closing quiz.",
+          "meta": ["HKBU MCCP6010 · Group 6", "2026"],
+          "links":
+            [
+              { "label": "Interactive Lesson", "url": "https://xanderzhou2022.github.io/HKBU_MCCP6010_Why-does-TikTok-know-what-you-like/" },
+              { "label": "GitHub", "url": "https://github.com/XanderZhou2022/HKBU_MCCP6010_Why-does-TikTok-know-what-you-like" },
+            ],
+          "tags": ["Recommendation Systems", "Interactive Learning", "Web Development"],
+        },
+        {
           "title": "Knowledge-Guided Data Cleaning",
           "url": "/projects/knowledge-guided-data-cleaning/",
           "image": "/assets/img/projects/knowledge-guided-data-cleaning.webp",

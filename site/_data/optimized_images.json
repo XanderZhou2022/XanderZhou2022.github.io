@@ -241,5 +241,11 @@
     "srcset": "/assets/img/optimized/publication_preview-graphecho-main-360.webp 360w, /assets/img/optimized/publication_preview-graphecho-main-640.webp 640w",
     "width": 640,
     "height": 176
+  },
+  "/assets/img/projects/tiktok-recommendations-cover.svg": {
+    "src": "/assets/img/optimized/projects-tiktok-recommendations-cover-360.webp",
+    "srcset": "/assets/img/optimized/projects-tiktok-recommendations-cover-360.webp 360w, /assets/img/optimized/projects-tiktok-recommendations-cover-640.webp 640w",
+    "width": 960,
+    "height": 600
   }
 }
