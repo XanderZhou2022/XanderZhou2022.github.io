@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+<title id="title">Why Does TikTok Know What You Like?</title>
+<desc id="desc">Two illustrated video feeds and a four-step recommendation journey for the HKBU MCCP6010 interactive lesson.</desc>
+<defs><symbol id="art-pets" viewBox="0 0 400 300"><ellipse cx="200" cy="264" rx="129" ry="13" fill="#184e77" opacity=".1"/><path d="M271 221c79-1 77-86 42-83-22 2 11 37-20 45" fill="none" stroke="#f4dfb4" stroke-width="26" stroke-linecap="round"/><path d="M127 248c-5-64 11-122 73-122 60 0 84 57 77 122" fill="#f4dfb4"/><path d="M130 119 121 42l66 39m35 1 61-41-8 83" fill="#f4dfb4"/><path d="m134 86-3-27 31 24m81 2 27-26-5 29" fill="#e6a48d"/><path d="M123 125c0-68 155-68 155 0 0 55-26 80-76 80-51 0-79-25-79-80" fill="#f4dfb4"/><path d="M158 132q10-12 20 0m47 0q10-12 20 0" stroke="#184e77" stroke-width="5" fill="none" stroke-linecap="round"/><path d="m191 148 10 9 10-9" fill="#cc8175"/><path d="M201 156v9m0 0q-10 11-20 0m20 0q10 11 20 0" stroke="#184e77" stroke-width="3" fill="none" stroke-linecap="round"/><path d="m140 150-41-6m43 18-40 8m158-20 40-6m-42 18 40 8" stroke="#184e77" stroke-width="3" opacity=".6" stroke-linecap="round"/><path d="M171 217v36m58-36v36" stroke="#dcc69d" stroke-width="4" stroke-linecap="round"/><path d="M152 251h38m21 0h38" stroke="#f4dfb4" stroke-width="19" stroke-linecap="round"/><path d="m301 56 6-11 6 11 12 3-12 5-6 12-6-12-12-5z" fill="#fbfdf8"/><circle cx="90" cy="105" r="5" fill="#fbfdf8"/>
+</symbol><symbol id="art-fitness" viewBox="0 0 400 300"><ellipse cx="207" cy="266" rx="143" ry="12" fill="#102f4a" opacity=".18"/><path d="M74 257h255" stroke="#a8d8db" stroke-width="9" stroke-linecap="round"/><circle cx="226" cy="72" r="25" fill="#f4dfb4"/><path d="M204 67c-2-28 49-34 49 2-15 2-27-4-30-13" fill="#163e5d"/><path d="m214 108-47 54 45 29 35-55" fill="#b5e48c"/><path d="m174 153-47-12-38 22m132-48 38 28 48-7" fill="none" stroke="#f4dfb4" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/><path d="m210 183 37 31 47 34m-100-73-32 44-40 33" fill="none" stroke="#fbfdf8" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><path d="m280 250 30 5m-202-2 27 1" stroke="#b5e48c" stroke-width="13" stroke-linecap="round"/><path d="M77 75h60m-72 15h42m190 1h24" stroke="#a8d8db" stroke-width="4" stroke-linecap="round" opacity=".7"/></symbol></defs>
+<rect width="960" height="600" rx="24" fill="#fbfdf8"/>
+<circle cx="755" cy="236" r="180" fill="#edf6f9"/>
+<circle cx="727" cy="257" r="153" fill="none" stroke="#c5dde3" stroke-width="2" stroke-dasharray="7 10"/>
+<g font-family="Arial, sans-serif" fill="#184e77">
+<rect x="48" y="54" width="34" height="4" rx="2" fill="#76c893"/>
+<text x="94" y="63" font-size="16" letter-spacing="2">MCCP6010 · GROUP 6</text>
+<g font-family="Georgia, serif" font-size="52">
+<text x="48" y="153">Why does TikTok</text>
+<text x="48" y="218">know what</text>
+<text x="48" y="283" font-style="italic" fill="#258c83">you like?</text>
+</g>
+<text x="50" y="342" font-size="22" fill="#526176">A few small actions.</text>
+<text x="50" y="375" font-size="22" fill="#526176">A feed that feels like you.</text>
+<rect x="48" y="409" width="293" height="40" rx="20" fill="#eef8dd"/>
+<text x="66" y="435" font-size="17">15 minutes · Interactive lesson</text>
+</g>
+<g transform="translate(713 77) rotate(10 91 172)">
+<rect width="183" height="344" rx="28" fill="#184e77"/>
+<rect x="9" y="10" width="165" height="323" rx="21" fill="#d5eff0"/>
+<rect x="58" y="16" width="68" height="10" rx="5" fill="#184e77"/>
+<text x="28" y="59" font-family="Arial, sans-serif" font-size="15" fill="#184e77">Jamie · For You</text>
+<use href="#art-fitness" x="4" y="83" width="175" height="184"/>
+<text x="25" y="296" font-family="Arial, sans-serif" font-size="15" fill="#184e77">A little movement.</text>
+</g>
+<g transform="translate(542 105) rotate(-8 98 174)">
+<rect width="194" height="355" rx="29" fill="#184e77"/>
+<rect x="9" y="10" width="176" height="334" rx="22" fill="#e8f2d9"/>
+<rect x="60" y="16" width="74" height="10" rx="5" fill="#184e77"/>
+<text x="25" y="60" font-family="Arial, sans-serif" font-size="16" fill="#184e77">Alex · For You</text>
+<use href="#art-pets" x="-1" y="83" width="196" height="193"/>
+<text x="26" y="307" font-family="Arial, sans-serif" font-size="15" fill="#184e77">One more kitten.</text>
+</g>
+<path d="M48 493H912" stroke="#dce5de"/>
+<g font-family="Arial, sans-serif" font-size="18" fill="#184e77" text-anchor="middle">
+<text x="149" y="548">01 Signals</text><text x="370" y="548">02 Content</text><text x="591" y="548">03 Ranking</text><text x="812" y="548">04 Feedback</text>
+<g fill="#52b69a" font-size="24"><text x="259" y="549">→</text><text x="480" y="549">→</text><text x="701" y="549">→</text></g>
+</g></svg>
