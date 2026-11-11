@@ -49,6 +49,13 @@
         "items":
           [
             {
+              "title": "ACM International Conference on Web Search and Data Mining (WSDM)",
+              "description": "Reviewer · Short Paper Track",
+              "date": "2027",
+              "url": "https://www.wsdm-conference.org/2027/cfsp.html",
+              "icon": "fa-solid fa-pen-to-square",
+            },
+            {
               "title": "ACM The Web Conference (WWW)",
               "description": "Reviewer",
               "date": "2027",
@@ -112,6 +119,15 @@
               "date": "November 2025",
               "links": [],
               "tags": ["AI in Finance", "Poster Sessions", "Conference Service"],
+              "icon": "fa-solid fa-hand-holding-heart",
+            },
+            {
+              "title": "Student Volunteer · AACL-IJCNLP 2026",
+              "description": "Selected to join the student volunteer team for AACL-IJCNLP 2026.",
+              "meta": ["Hengqin, China"],
+              "date": "November 2026",
+              "links": [{ "url": "https://2026.aaclnet.org/", "label": "Conference Website" }],
+              "tags": ["NLP Conference", "Volunteer Service"],
               "icon": "fa-solid fa-hand-holding-heart",
             },
           ],
